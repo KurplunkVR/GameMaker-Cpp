@@ -13,16 +13,14 @@ import os
 import sys
 from pathlib import Path
 import subprocess
+import argparse
 
 
 def find_undertale():
     """Find Undertale installation"""
+    """Really why would it be anywhere else???"""
     possible_locations = [
-        Path.home() / "AppData/Local/Packages/TobyFox.Undertale_kxnztxnf628xy/LocalState",
-        Path("C:/Games/Undertale"),
-        Path("C:/Program Files/Undertale"),
-        Path("C:/Program Files (x86)/Undertale"),
-        Path.home() / "Downloads/Undertale",
+        Path("C:/Program Files (x86)/Steam/steamapps/common/Undertale"),
     ]
     
     for loc in possible_locations:
@@ -35,11 +33,9 @@ def find_undertale():
 
 def find_deltarune():
     """Find Deltarune installation"""
+    """Really why would it be anywhere else???"""
     possible_locations = [
-        Path.home() / "AppData/Local/Packages/TobyFox.Deltarune_xhf8p5n57j8k0/LocalState",
-        Path("C:/Games/Deltarune"),
-        Path("C:/Program Files/Deltarune"),
-        Path.home() / "Downloads/Deltarune",
+        Path("C:/Program Files (x86)/Steam/steamapps/common/DELTARUNEdemo"),
     ]
     
     for loc in possible_locations:
@@ -50,7 +46,7 @@ def find_deltarune():
     return None
 
 
-def extract_game(data_win_path, output_name):
+def extract_game(data_win_path, output_name, umt_path=None):
     """Extract game using the extraction tool"""
     print(f"\n{'='*70}")
     print(f"Extracting {output_name}...")
@@ -66,6 +62,9 @@ def extract_game(data_win_path, output_name):
         "--keep-dump",
         f"dump_{output_name}/"
     ]
+    
+    if umt_path:
+        cmd.extend(["--umt-path", umt_path])
     
     print(f"Command: {' '.join(cmd)}\n")
     
@@ -89,6 +88,11 @@ def extract_game(data_win_path, output_name):
 
 def main():
     """Interactive game extraction"""
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description="Extract GameMaker games to JSON")
+    parser.add_argument("--umt-path", help="Path to UndertaleModTool executable")
+    args = parser.parse_args()
+    
     print("\n" + "="*70)
     print("GameMaker Game Extractor - Quick Start")
     print("="*70)
@@ -173,7 +177,7 @@ def main():
     # Extract selected games
     results = {}
     for name, path in games_to_extract:
-        success = extract_game(path, name.lower())
+        success = extract_game(path, name.lower(), umt_path=args.umt_path)
         results[name] = success
     
     # Summary

@@ -50,20 +50,37 @@ class GameExtractor:
         """Locate UMT executable"""
         if custom_path:
             path = Path(custom_path)
-            if path.exists():
+            
+            # If it's a file, use it directly
+            if path.is_file():
                 self.log(f"Using custom UMT: {path}")
                 return str(path)
-            else:
-                self.log(f"Custom UMT path not found: {path}")
+            
+            # If it's a directory, look for executable inside it
+            if path.is_dir():
+                # Try common executable names
+                for exe_name in ["UndertaleModCli.exe", "UndertaleModTool.exe", "UTMT.exe", "umt.exe"]:
+                    exe_path = path / exe_name
+                    if exe_path.exists():
+                        self.log(f"Found UMT executable: {exe_path}")
+                        return str(exe_path)
+                
+                # If no exe found, try any .exe files
+                exe_files = list(path.glob("*.exe"))
+                if exe_files:
+                    exe_path = exe_files[0]
+                    self.log(f"Found UMT executable: {exe_path}")
+                    return str(exe_path)
+                
+                self.log(f"No executable found in: {path}")
                 return None
+            
+            # Path doesn't exist
+            self.log(f"Custom UMT path not found: {path}")
+            return None
         
-        # Try common installation locations
+        # If you somehow have UMT installed, please tell me where it is so I can add it to the common paths list
         common_paths = [
-            Path(os.path.expandvars("%PROGRAMFILES%/UMT")),
-            Path(os.path.expandvars("%PROGRAMFILES(X86)%/UMT")),
-            Path.home() / "Downloads" / "UMT",
-            Path("C:/Tools/UMT"),
-            Path("./UMT"),
         ]
         
         # Also check PATH
@@ -133,8 +150,18 @@ class GameExtractor:
         self.log(f"  Output: {output_dir}")
         
         try:
-            # UMT dump format: UMT.exe dump <input> <output>
-            cmd = [str(self.umt_path), "dump", str(data_win), str(output_dir)]
+            # UMT CLI format: UMT.exe dump <input> -o <output> [options]
+            # Uses -o flag for output directory
+            cmd = [
+                str(self.umt_path), 
+                "dump", 
+                str(data_win), 
+                "-o", 
+                str(output_dir),
+                "-c", "UMT_DUMP_ALL",  # Dump all code entries
+                "-s",                   # Dump strings
+                "-t",                   # Dump textures
+            ]
             
             self.log(f"  Command: {' '.join(cmd)}")
             

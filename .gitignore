@@ -1,3 +1,6 @@
 node_modules
 .vscode
 *~
+tools/dump_undertale/
+tools/undertale.json
+tools/undertale_converted.json

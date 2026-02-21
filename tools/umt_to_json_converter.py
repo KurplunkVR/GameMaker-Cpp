@@ -197,7 +197,12 @@ class UTConverter:
     
     def _load_textures(self):
         """Load texture information from textures directory"""
-        textures_dir = self.dump_dir / "Textures"
+        # Try new UMT CLI format first (EmbeddedTextures)
+        textures_dir = self.dump_dir / "EmbeddedTextures"
+        if not textures_dir.exists():
+            # Fall back to original format (Textures)
+            textures_dir = self.dump_dir / "Textures"
+        
         if not textures_dir.exists():
             self.log("No textures directory found")
             return
@@ -290,11 +295,62 @@ class UTConverter:
     
     def _load_objects(self):
         """Load object data from objects directory"""
+        # Try original format first
         objects_dir = self.dump_dir / "Objects"
-        if not objects_dir.exists():
-            self.log("No objects directory found")
+        if objects_dir.exists():
+            self._load_objects_original_format(objects_dir)
             return
         
+        # Fall back to UMT CLI format (CodeEntries)
+        code_dir = self.dump_dir / "CodeEntries"
+        if code_dir.exists():
+            self._load_objects_from_code_entries(code_dir)
+            return
+        
+        self.log("No objects directory found")
+    
+    def _load_objects_from_code_entries(self, code_dir: Path):
+        """Load objects from UMT CLI CodeEntries format"""
+        try:
+            # Parse gml files to extract object names and events
+            # Files are named like: gml_Object_<name>_<event>.gml
+            object_map = {}  # name -> {events: {}, ...}
+            
+            for code_file in sorted(code_dir.glob("gml_Object_*.gml")):
+                # Parse filename
+                stem = code_file.stem
+                parts = stem.split("_", 3)  # gml_Object_<name>_<event>
+                
+                if len(parts) >= 4:
+                    obj_name = parts[2]
+                    event_name = "_".join(parts[3:])
+                    
+                    if obj_name not in object_map:
+                        object_map[obj_name] = {"events": {}}
+                    
+                    try:
+                        with open(code_file, 'r', encoding='utf-8', errors='ignore') as f:
+                            code = f.read()
+                            object_map[obj_name]["events"][event_name] = code
+                    except:
+                        pass
+            
+            # Convert to object list
+            for obj_idx, (obj_name, obj_data) in enumerate(sorted(object_map.items())):
+                obj = Object(
+                    id=obj_idx,
+                    name=obj_name,
+                    events=obj_data["events"],
+                )
+                self.objects[obj_idx] = obj
+            
+            if self.objects:
+                self.log(f"Loaded {len(self.objects)} objects from CodeEntries")
+        except Exception as e:
+            self.log(f"Error loading objects from CodeEntries: {e}")
+    
+    def _load_objects_original_format(self, objects_dir: Path):
+        """Load object data from original UMT dump format"""
         try:
             for obj_idx, obj_dir in enumerate(sorted(objects_dir.iterdir())):
                 if not obj_dir.is_dir():
