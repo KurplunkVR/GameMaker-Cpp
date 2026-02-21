@@ -1,0 +1,12 @@
+# Requirements for GameMaker Asset Converter Tools
+# Currently uses only Python standard library
+
+# Optional dependencies for future enhancements:
+# - pillow (for image processing)
+# - pyyaml (for YAML dumps)
+# - colorama (for colored console output)
+
+# For development/testing:
+# pytest (for extended testing)
+# black (for code formatting)
+# pylint (for linting)

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\vendored\SDL\src\test\SDL_test_assert.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\vendored\SDL\src\test\SDL_test_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\vendored\SDL\src\test\SDL_test_compare.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\vendored\SDL\src\test\SDL_test_crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\vendored\SDL\src\test\SDL_test_font.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\vendored\SDL\src\test\SDL_test_fuzzer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\vendored\SDL\src\test\SDL_test_harness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\vendored\SDL\src\test\SDL_test_log.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\vendored\SDL\src\test\SDL_test_md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\vendored\SDL\src\test\SDL_test_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\vendored\SDL\src\test\SDL_test_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\vendored\SDL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ABFB7830-4829-3BFE-82BB-EF452F19E192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{45F9FD3B-A98C-33EE-8B58-5EF8F9FF8225}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\OWEN\DOCUMENTS\GITHUB\GAMEMAKER-CPP\NATIVE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Owen/Documents/GitHub/GameMaker-Cpp -BC:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build --check-stamp-file C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/native/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

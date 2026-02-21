@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/cmake_install.cmake",
+		"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/vendored/SDL/cmake_install.cmake",
+		"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/native/cmake_install.cmake",
+		"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/runtime/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

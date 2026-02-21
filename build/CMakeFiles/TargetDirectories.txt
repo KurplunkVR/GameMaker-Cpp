@@ -1,0 +1,8 @@
+C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/vendored/SDL/CMakeFiles/SDL3-shared.dir
+C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/vendored/SDL/CMakeFiles/SDL3_test.dir
+C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/vendored/SDL/CMakeFiles/SDL_uclibc.dir
+C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/vendored/SDL/CMakeFiles/ALL_BUILD.dir
+C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/native/CMakeFiles/native.dir
+C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/runtime/CMakeFiles/runtime.dir
