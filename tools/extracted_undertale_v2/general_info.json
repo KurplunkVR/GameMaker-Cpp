@@ -1,0 +1,8 @@
+{
+  "name": "GameMaker Game",
+  "version": "2.3",
+  "width": 1024,
+  "height": 768,
+  "targetFPS": 60,
+  "windowColor": "#000000"
+}

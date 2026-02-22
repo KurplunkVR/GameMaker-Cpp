@@ -1,0 +1,1 @@
+// This code entry is a reference to an anonymous function within "gml_Object_obj_darkfountain_Create_0", decompile that instead.

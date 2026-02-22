@@ -1,0 +1,1 @@
+// This code entry is a reference to an anonymous function within "gml_GlobalScript_ossafe_file_text_eof", decompile that instead.

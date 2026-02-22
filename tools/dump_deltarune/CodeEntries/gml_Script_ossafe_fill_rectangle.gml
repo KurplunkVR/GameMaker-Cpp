@@ -1,0 +1,1 @@
+// This code entry is a reference to an anonymous function within "gml_GlobalScript_ossafe_fill_rectangle", decompile that instead.

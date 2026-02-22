@@ -10,3 +10,5 @@ C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\native\src\Graphics.cpp;C:\Users\Ow
 C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\native\src\Audio.cpp;C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\build\native\native.dir\Release\Audio.obj
 C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\native\src\Layer.cpp;C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\build\native\native.dir\Release\Layer.obj
 C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\native\src\AssetLoader.cpp;C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\build\native\native.dir\Release\AssetLoader.obj
+C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\native\src\VM_Value.cpp;C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\build\native\native.dir\Release\VM_Value.obj
+C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\native\src\VM_Executor.cpp;C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\build\native\native.dir\Release\VM_Executor.obj

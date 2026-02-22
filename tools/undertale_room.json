@@ -1,0 +1,99 @@
+{
+  "game": {
+    "name": "Undertale",
+    "version": "1.0"
+  },
+  "textures": [
+    "Texture 0.png",
+    "Texture 1.png",
+    "Texture 10.png",
+    "Texture 11.png",
+    "Texture 12.png",
+    "Texture 13.png",
+    "Texture 14.png",
+    "Texture 15.png",
+    "Texture 16.png",
+    "Texture 17.png",
+    "Texture 18.png",
+    "Texture 19.png",
+    "Texture 2.png",
+    "Texture 20.png",
+    "Texture 21.png",
+    "Texture 22.png",
+    "Texture 23.png",
+    "Texture 24.png",
+    "Texture 25.png",
+    "Texture 3.png",
+    "Texture 4.png",
+    "Texture 5.png",
+    "Texture 6.png",
+    "Texture 7.png",
+    "Texture 8.png",
+    "Texture 9.png"
+  ],
+  "sprites": [],
+  "objects": [
+    {
+      "id": 0,
+      "name": "OBJ",
+      "sprite_id": -1,
+      "solid": false,
+      "events": {},
+      "creation_code": ""
+    }
+  ],
+  "rooms": [
+    {
+      "id": 0,
+      "name": "Basement",
+      "width": 800,
+      "height": 600,
+      "background_color": "0xFF000000",
+      "instances": [
+        {
+          "id": 0,
+          "object_id": 0,
+          "x": 200,
+          "y": 150,
+          "creation_code": ""
+        },
+        {
+          "id": 1,
+          "object_id": 0,
+          "x": 400,
+          "y": 150,
+          "creation_code": ""
+        },
+        {
+          "id": 2,
+          "object_id": 0,
+          "x": 600,
+          "y": 150,
+          "creation_code": ""
+        },
+        {
+          "id": 3,
+          "object_id": 0,
+          "x": 200,
+          "y": 350,
+          "creation_code": ""
+        },
+        {
+          "id": 4,
+          "object_id": 0,
+          "x": 400,
+          "y": 350,
+          "creation_code": ""
+        },
+        {
+          "id": 5,
+          "object_id": 0,
+          "x": 600,
+          "y": 350,
+          "creation_code": ""
+        }
+      ]
+    }
+  ],
+  "sounds": []
+}

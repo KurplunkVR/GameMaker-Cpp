@@ -1,0 +1,1 @@
+// This code entry is a reference to an anonymous function within "gml_GlobalScript_scr_create_hitbox_solid", decompile that instead.

@@ -2,9 +2,11 @@
 #include "../native/include/IPlatform.h"
 #include "../native/include/InputSDL.h"
 #include "../native/include/GameEngine.h"
+#include "../native/include/AssetLoader.h"
 #include <cstdio>
 #include <chrono>
 #include <thread>
+#include <filesystem>
 
 extern "C" IPlatform* CreatePlatform();
 
@@ -25,28 +27,48 @@ int main() {
 		return 1;
 	}
 
-	// Create a test room
-	auto test_room = std::make_shared<GM::Room>(0, "TestRoom");
-	test_room->SetWidth(800);
-	test_room->SetHeight(600);
-	engine.GetGlobals().GetRoomManager().AddRoom(test_room);
+	// Load Undertale from JSON
+	printf("[Main] Loading Undertale game...\n");
+	GM::AssetLoader loader;
+	std::string undertale_path = "../../tools/undertale_room.json";
 	
-	// Create a camera for the room
-	auto camera = std::make_shared<GM::Camera>();
-	camera->SetID(0);
-	camera->SetX(0);
-	camera->SetY(0);
-	camera->SetWidth(800);
-	camera->SetHeight(600);
-	test_room->AddCamera(camera);
-	test_room->SetActiveCamera(camera);
+	printf("[Main] Looking for: %s\n", undertale_path.c_str());
+	printf("[Main] Absolute path: %s\n", std::filesystem::absolute(undertale_path).string().c_str());
+	printf("[Main] File exists: %d\n", std::filesystem::exists(undertale_path));
+	
+	if (!std::filesystem::exists(undertale_path)) {
+		printf("[Main] ERROR: undertale.json not found at %s\n", undertale_path.c_str());
+		printf("[Main] Creating test room instead...\n");
+		
+		// Fallback: Create a test room
+		auto test_room = std::make_shared<GM::Room>(0, "TestRoom");
+		test_room->SetWidth(800);
+		test_room->SetHeight(600);
+		engine.GetGlobals().GetRoomManager().AddRoom(test_room);
+		
+		auto camera = std::make_shared<GM::Camera>();
+		camera->SetID(0);
+		camera->SetX(0);
+		camera->SetY(0);
+		camera->SetWidth(800);
+		camera->SetHeight(600);
+		test_room->AddCamera(camera);
+		test_room->SetActiveCamera(camera);
 
-	// Create a layer for instances
-	auto layer = std::make_shared<GM::Layer>(0, "Instances", GM::LayerType::Instances);
-	test_room->AddLayer(layer);
-	
-	// Load the room
-	engine.LoadRoom(test_room);
+		auto layer = std::make_shared<GM::Layer>(0, "Instances", GM::LayerType::Instances);
+		test_room->AddLayer(layer);
+		engine.LoadRoom(test_room);
+	} else {
+		auto progress = [](int current, int total) {
+			printf("[Loader] Progress: %d/%d\n", current, total);
+		};
+		
+		if (!loader.LoadGameFromJSON(undertale_path, progress)) {
+			printf("[Main] ERROR: Failed to load undertale.json\n");
+			return 1;
+		}
+		printf("[Main] Undertale loaded successfully!\n");
+	}
 
 	printf("[Main] Entering main loop...\n");
 	printf("[Main] Press window close button or Ctrl+C to exit\n");

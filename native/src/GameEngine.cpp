@@ -18,6 +18,9 @@ bool GameEngine::Initialize(uint32_t display_width, uint32_t display_height) {
     // Initialize audio
     globals.GetAudioManager().Initialize();
     
+    // Set renderer in globals so instances can access it
+    globals.SetRenderer(platform->GetRenderer());
+    
     return true;
 }
 
@@ -83,14 +86,18 @@ void GameEngine::Update() {
 void GameEngine::Draw() {
     if (!platform) return;
 
-    platform->GetRenderer()->Clear();
-    
     auto room = GetCurrentRoom();
+    if (room) {
+        platform->GetRenderer()->SetClearColor(room->GetBackgroundColor());
+    }
+    
+    platform->GetRenderer()->BeginFrame();
+    
     if (room) {
         room->Draw();
     }
 
-    platform->GetRenderer()->Present();
+    platform->GetRenderer()->EndFrame();
 }
 
 void GameEngine::DoStep() {

@@ -49,13 +49,13 @@ bool AssetLoader::LoadGameFromJSON(const std::string& json_path, ProgressCallbac
     }
     
     // Count total assets for progress tracking
-    if (game_data.contains("Textures")) loading_total += game_data["Textures"].size();
-    if (game_data.contains("Sprites")) loading_total += game_data["Sprites"].size();
-    if (game_data.contains("Objects")) loading_total += game_data["Objects"].size();
-    if (game_data.contains("GMRooms")) loading_total += game_data["GMRooms"].size();
-    if (game_data.contains("Sounds")) loading_total += game_data["Sounds"].size();
-    if (game_data.contains("Backgrounds")) loading_total += game_data["Backgrounds"].size();
-    if (game_data.contains("Fonts")) loading_total += game_data["Fonts"].size();
+    if (game_data.contains("textures")) loading_total += game_data["textures"].size();
+    if (game_data.contains("sprites")) loading_total += game_data["sprites"].size();
+    if (game_data.contains("objects")) loading_total += game_data["objects"].size();
+    if (game_data.contains("rooms")) loading_total += game_data["rooms"].size();
+    if (game_data.contains("sounds")) loading_total += game_data["sounds"].size();
+    if (game_data.contains("backgrounds")) loading_total += game_data["backgrounds"].size();
+    if (game_data.contains("fonts")) loading_total += game_data["fonts"].size();
     
     ReportProgress(0, loading_total);
     
@@ -120,20 +120,30 @@ bool AssetLoader::LoadGameFromJSON(const std::string& json_path, ProgressCallbac
 }
 
 bool AssetLoader::LoadTextures(const json& game_data) {
-    if (!game_data.contains("Textures")) {
+    if (!game_data.contains("textures")) {
         std::cout << "[AssetLoader] No textures in game data" << std::endl;
         return true;
     }
-    
-    for (size_t i = 0; i < game_data["Textures"].size(); i++) {
-        // TODO: Implement texture loading from PNG/JPG files
-        // For now, create placeholder textures
-        std::string tex_name = game_data["Textures"][i];
-        std::cout << "[AssetLoader] Texture " << i << ": " << tex_name << std::endl;
+
+    for (size_t i = 0; i < game_data["textures"].size(); i++) {
+        std::string tex_name = game_data["textures"][i];
         
-        // Create a placeholder texture (32x32 white)
-        auto texture = std::make_shared<Texture>(32, 32);
-        // TODO: Load actual image data
+        // Create placeholder texture (256x256 for now)
+        auto texture = std::make_shared<Texture>(256, 256);
+        // Fill with test pattern
+        uint8_t color = (i * 10) % 256;
+        for (uint32_t y = 0; y < texture->GetHeight(); y++) {
+            for (uint32_t x = 0; x < texture->GetWidth(); x++) {
+                uint8_t* pixel = texture->GetPixelData() + ((y * texture->GetWidth() + x) * 4);
+                pixel[0] = color;        // R
+                pixel[1] = (color + 50) % 256;  // G
+                pixel[2] = (color + 100) % 256; // B
+                pixel[3] = 255;          // A
+            }
+        }
+        
+        textures[tex_name] = texture;
+        std::cout << "[AssetLoader] Loaded texture " << i << ": " << tex_name << std::endl;
         
         loading_count++;
         ReportProgress(loading_count, loading_total);
@@ -143,14 +153,14 @@ bool AssetLoader::LoadTextures(const json& game_data) {
 }
 
 bool AssetLoader::LoadSprites(const json& game_data) {
-    if (!game_data.contains("Sprites")) {
+    if (!game_data.contains("sprites") || game_data["sprites"].empty()) {
         std::cout << "[AssetLoader] No sprites in game data" << std::endl;
         return true;
     }
     
     auto& sprite_manager = GameGlobals::Get().GetSpriteManager();
     
-    for (const auto& sprite_data : game_data["Sprites"]) {
+    for (const auto& sprite_data : game_data["sprites"]) {
         if (sprite_data.is_null()) {
             loading_count++;
             ReportProgress(loading_count, loading_total);
@@ -167,7 +177,25 @@ bool AssetLoader::LoadSprites(const json& game_data) {
             if (sprite_data.contains("frames")) {
                 for (const auto& frame_data : sprite_data["frames"]) {
                     SpriteFrame frame;
-                    // TODO: Extract frame data and create actual SpriteFrame objects
+                    
+                    // Try to get texture by index
+                    if (frame_data.contains("texture_id")) {
+                        int tex_id = frame_data["texture_id"];
+                        if (tex_id >= 0 && tex_id < (int)game_data["textures"].size()) {
+                            std::string tex_name = game_data["textures"][tex_id];
+                            if (textures.find(tex_name) != textures.end()) {
+                                frame.SetTexture(textures[tex_name]);
+                                auto tex = textures[tex_name];
+                                frame.SetWidth(tex->GetWidth());
+                                frame.SetHeight(tex->GetHeight());
+                            }
+                        }
+                    }
+                    
+                    if (frame_data.contains("duration")) {
+                        frame.SetDuration(frame_data["duration"]);
+                    }
+                    
                     sprite->AddFrame(frame);
                 }
             }
@@ -195,14 +223,14 @@ bool AssetLoader::LoadSprites(const json& game_data) {
 }
 
 bool AssetLoader::LoadObjects(const json& game_data) {
-    if (!game_data.contains("Objects")) {
+    if (!game_data.contains("objects")) {
         std::cout << "[AssetLoader] No objects in game data" << std::endl;
         return true;
     }
     
     auto& object_manager = GameGlobals::Get().GetObjectManager();
     
-    for (const auto& object_data : game_data["Objects"]) {
+    for (const auto& object_data : game_data["objects"]) {
         if (object_data.is_null()) {
             loading_count++;
             ReportProgress(loading_count, loading_total);
@@ -254,14 +282,67 @@ bool AssetLoader::LoadObjects(const json& game_data) {
 }
 
 bool AssetLoader::LoadRooms(const json& game_data) {
-    if (!game_data.contains("GMRooms")) {
-        std::cout << "[AssetLoader] No rooms in game data" << std::endl;
+    auto& room_manager = GameGlobals::Get().GetRoomManager();
+    auto& object_manager = GameGlobals::Get().GetObjectManager();
+    
+    std::cout << "[AssetLoader] Checking for rooms... contains: " << game_data.contains("rooms") << std::endl;
+    if (game_data.contains("rooms")) {
+        std::cout << "[AssetLoader] Rooms array size: " << game_data["rooms"].size() << std::endl;
+    }
+    
+    if (!game_data.contains("rooms") || game_data["rooms"].empty()) {
+        std::cout << "[AssetLoader] No rooms in game data, creating a default room" << std::endl;
+        
+        // Create a default room with texture display
+        auto room = std::make_shared<Room>(0, "DefaultRoom");
+        room->SetWidth(800);
+        room->SetHeight(600);
+        room->SetBackgroundColor(0xFF1a1a2e);
+        room_manager.AddRoom(room);
+        
+        auto camera = std::make_shared<Camera>();
+        camera->SetID(0);
+        camera->SetX(0);
+        camera->SetY(0);
+        camera->SetWidth(800);
+        camera->SetHeight(600);
+        camera->SetViewportWidth(800);
+        camera->SetViewportHeight(600);
+        room->AddCamera(camera);
+        room->SetActiveCamera(camera);
+        
+        auto layer = std::make_shared<Layer>(0, "Textures", LayerType::Instances);
+        room->AddLayer(layer);
+        
+        auto test_obj = std::make_shared<Object>(9999, "test_display");
+        object_manager.AddObject(test_obj);
+        
+        int x = 20, y = 20;
+        uint32_t inst_id = 0;
+        for (auto& [tex_name, texture] : textures) {
+            auto inst = std::make_shared<Instance>(x, y, inst_id++, test_obj);
+            inst->SetSpeed(0);
+            inst->SetVSpeed(0);
+            inst->SetVisible(true);
+            room->AddInstance(inst);
+            
+            x += texture->GetWidth() + 10;
+            if (x > 700) {
+                x = 20;
+                y += texture->GetHeight() + 10;
+            }
+        }
+        
+        std::cout << "[AssetLoader] Created " << inst_id << " instances for texture display" << std::endl;
+        room_manager.SetCurrentRoom(room);
+        
+        loading_count++;
+        ReportProgress(loading_count, loading_total);
         return true;
     }
     
-    auto& room_manager = GameGlobals::Get().GetRoomManager();
-    
-    for (const auto& room_data : game_data["GMRooms"]) {
+    // Load actual rooms from JSON
+    for (const auto& room_data : game_data["rooms"]) {
         if (room_data.is_null()) {
             loading_count++;
             ReportProgress(loading_count, loading_total);
@@ -276,17 +357,71 @@ bool AssetLoader::LoadRooms(const json& game_data) {
             
             // Set room properties
             if (room_data.contains("width")) {
-                // TODO: Set room size
+                room->SetWidth(room_data["width"]);
             }
             if (room_data.contains("height")) {
-                // TODO: Set room size
+                room->SetHeight(room_data["height"]);
+            }
+            if (room_data.contains("background_color")) {
+                std::string color_str = room_data["background_color"];
+                // Parse hex color
+                uint32_t color = std::stoul(color_str, nullptr, 16);
+                room->SetBackgroundColor(color);
             }
             
-            // TODO: Load layers and instances from room data
+            // Create camera for room
+            auto camera = std::make_shared<Camera>();
+            camera->SetID(0);
+            camera->SetX(0);
+            camera->SetY(0);
+            camera->SetWidth(room->GetWidth());
+            camera->SetHeight(room->GetHeight());
+            camera->SetViewportWidth(800);
+            camera->SetViewportHeight(600);
+            room->AddCamera(camera);
+            room->SetActiveCamera(camera);
+            
+            // Create instance layer
+            auto layer = std::make_shared<Layer>(0, "Instances", LayerType::Instances);
+            room->AddLayer(layer);
+            
+            // Load instances
+            if (room_data.contains("instances")) {
+                for (const auto& inst_data : room_data["instances"]) {
+                    if (inst_data.is_null()) continue;
+                    
+                    try {
+                        uint32_t inst_id = inst_data["id"];
+                        uint32_t obj_id = inst_data["object_id"];
+                        double inst_x = inst_data.value("x", 0.0);
+                        double inst_y = inst_data.value("y", 0.0);
+                        
+                        auto obj = object_manager.GetObject(obj_id);
+                        if (!obj) {
+                            // Create object if it doesn't exist
+                            obj = std::make_shared<Object>(obj_id, "obj_" + std::to_string(obj_id));
+                            object_manager.AddObject(obj);
+                        }
+                        
+                        auto inst = std::make_shared<Instance>(inst_x, inst_y, inst_id, obj);
+                        inst->SetVisible(true);
+                        room->AddInstance(inst);
+                        
+                        std::cout << "[AssetLoader] Room " << room_id << " Instance " << inst_id << ": " << obj->GetName() << " at (" << inst_x << ", " << inst_y << ")" << std::endl;
+                    } catch (const std::exception& e) {
+                        std::cerr << "[AssetLoader] Error loading instance: " << e.what() << std::endl;
+                    }
+                }
+            }
             
             room_manager.AddRoom(room);
             
-            std::cout << "[AssetLoader] Room " << room_id << ": " << room_name << std::endl;
+            // Set first room as current
+            if (room_id == 0) {
+                room_manager.SetCurrentRoom(room);
+            }
+            
+            std::cout << "[AssetLoader] Room " << room_id << ": " << room_name << " (" << room->GetWidth() << "x" << room->GetHeight() << ")" << std::endl;
         } catch (const std::exception& e) {
             std::cerr << "[AssetLoader] Error loading room: " << e.what() << std::endl;
         }
@@ -299,15 +434,15 @@ bool AssetLoader::LoadRooms(const json& game_data) {
 }
 
 bool AssetLoader::LoadSounds(const json& game_data) {
-    if (!game_data.contains("Sounds")) {
+    if (!game_data.contains("sounds")) {
         std::cout << "[AssetLoader] No sounds in game data" << std::endl;
         return true;
     }
     
     auto& audio_manager = GameGlobals::Get().GetAudioManager();
     
-    for (size_t i = 0; i < game_data["Sounds"].size(); i++) {
-        const auto& sound_data = game_data["Sounds"][i];
+    for (size_t i = 0; i < game_data["sounds"].size(); i++) {
+        const auto& sound_data = game_data["sounds"][i];
         
         if (sound_data.is_null()) {
             loading_count++;
@@ -333,12 +468,12 @@ bool AssetLoader::LoadSounds(const json& game_data) {
 }
 
 bool AssetLoader::LoadBackgrounds(const json& game_data) {
-    if (!game_data.contains("Backgrounds")) {
+    if (!game_data.contains("backgrounds")) {
         std::cout << "[AssetLoader] No backgrounds in game data" << std::endl;
         return true;
     }
     
-    for (size_t i = 0; i < game_data["Backgrounds"].size(); i++) {
+    for (size_t i = 0; i < game_data["backgrounds"].size(); i++) {
         // TODO: Implement background loading
         std::cout << "[AssetLoader] Background " << i << std::endl;
     }
@@ -347,12 +482,12 @@ bool AssetLoader::LoadBackgrounds(const json& game_data) {
 }
 
 bool AssetLoader::LoadFonts(const json& game_data) {
-    if (!game_data.contains("Fonts")) {
+    if (!game_data.contains("fonts")) {
         std::cout << "[AssetLoader] No fonts in game data" << std::endl;
         return true;
     }
     
-    for (const auto& font_data : game_data["Fonts"]) {
+    for (const auto& font_data : game_data["fonts"]) {
         if (font_data.is_null()) continue;
         
         // TODO: Implement font loading

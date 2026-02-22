@@ -1,0 +1,1 @@
+// This code entry is a reference to an anonymous function within "gml_GlobalScript_scr_itemcheck_inventory_and_pocket", decompile that instead.

@@ -7,6 +7,7 @@
 #include "Sprite.h"
 #include "Audio.h"
 #include "Layer.h"
+#include "IPlatform.h"
 #include <memory>
 #include <vector>
 #include <map>
@@ -104,6 +105,10 @@ public:
     RoomManager& GetRoomManager() { return room_manager; }
     SpriteManager& GetSpriteManager() { return sprite_manager; }
     AudioManager& GetAudioManager() { return audio_manager; }
+    
+    // Renderer access for drawing
+    IRenderer* GetRenderer() { return renderer; }
+    void SetRenderer(IRenderer* r) { renderer = r; }
 
     // Game state
     int GetScore() const { return score; }
@@ -131,6 +136,7 @@ private:
     RoomManager room_manager;
     SpriteManager sprite_manager;
     AudioManager audio_manager;
+    IRenderer* renderer = nullptr;
 
     int score = 0;
     int lives = -1;

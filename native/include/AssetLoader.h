@@ -2,10 +2,12 @@
 
 #include "GMLTypes.h"
 #include "Managers.h"
+#include "Graphics.h"
 #include <nlohmann/json.hpp>
 #include <string>
 #include <functional>
 #include <memory>
+#include <map>
 
 namespace GM {
 
@@ -62,6 +64,10 @@ private:
     ProgressCallback progress_callback;
     int loading_count = 0;
     int loading_total = 0;
+    
+    // Texture storage
+    std::map<std::string, std::shared_ptr<Texture>> textures;
+    std::shared_ptr<Texture> LoadTextureFromFile(const std::string& file_path);
 
     void ReportProgress(int current, int total);
 };

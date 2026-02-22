@@ -11,6 +11,8 @@ add_library(native STATIC
     src/Audio.cpp
     src/Layer.cpp
     src/AssetLoader.cpp
+    src/VM_Value.cpp
+    src/VM_Executor.cpp
 )
 
 target_include_directories(native PUBLIC
@@ -22,5 +24,3 @@ target_include_directories(native PUBLIC
 link_directories(${CMAKE_SOURCE_DIR}/vendored/SDL/lib)
 
 target_link_libraries(native PUBLIC SDL3::SDL3)
-
-target_link_libraries(native PRIVATE opengl32)

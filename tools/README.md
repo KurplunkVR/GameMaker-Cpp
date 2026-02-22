@@ -11,6 +11,30 @@ data.win (binary) → UMT dump → JSON (C++ compatible)
 
 ## Tools
 
+### 0. `extractor.py` - Fast Asset Extractor (NEW)
+
+**Quick extraction from UMT dumps to portable JSON**
+
+Extracts sprites, objects, rooms, and code from already-dumped GameMaker assets.
+
+```bash
+python extractor.py <dump_directory> [output_directory]
+```
+
+**Example:**
+```bash
+python extractor.py ./dump_undertale ./extracted_assets
+```
+
+**Output files:**
+- `general_info.json` - Game metadata
+- `sprites.json` - Sprite definitions with texture coordinates
+- `objects.json` - Game object definitions and event code references
+- `rooms.json` - Room layouts with instance placements
+- `code.json` - GML code/bytecode
+
+**Best for:** Already have UMT dump? Use this for quick conversion.
+
 ### 1. `extract_game.py` - Complete Pipeline
 
 **One-command extraction of GameMaker games**

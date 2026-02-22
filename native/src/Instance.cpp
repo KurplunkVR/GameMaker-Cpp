@@ -1,6 +1,7 @@
 #include "Instance.h"
 #include "Object.h"
 #include "Graphics.h"
+#include "Managers.h"
 #include <cmath>
 #include <algorithm>
 
@@ -90,13 +91,19 @@ void Instance::StepEvent(StepEventType stepType) {
 }
 
 void Instance::DrawEvent() {
-    // Draw the sprite
-    // TODO: Get graphics context from engine/platform
-    // if (sprite_index > 0 && graphics) {
-    //     graphics->DrawSprite(sprite, (uint32_t)image_index, x, y,
-    //                          image_xscale, image_yscale, image_angle,
-    //                          image_blend, image_alpha);
-    // }
+    // Draw the sprite or a rectangle at the instance position
+    auto renderer = GameGlobals::Get().GetRenderer();
+    if (renderer) {
+        // Draw a colored rectangle representing this instance
+        // Vary color based on instance ID
+        unsigned int color = 0xFF000000 | ((object_index * 15 + 100) & 0xFF) << 16 | 
+                            ((object_index * 25 + 50) & 0xFF) << 8 | 
+                            ((object_index * 35) & 0xFF);
+        
+        renderer->DrawRect((int)x - 32, (int)y - 32, 64, 64, color, true);
+        renderer->DrawRect((int)x - 32, (int)y - 32, 64, 64, 0xFFFFFFFF, false);  // White outline
+    }
+    
     TriggerEvent(EventType::Draw, 0);
 }
 

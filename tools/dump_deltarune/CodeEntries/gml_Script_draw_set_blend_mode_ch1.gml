@@ -1,0 +1,1 @@
+// This code entry is a reference to an anonymous function within "gml_GlobalScript_draw_set_blend_mode_ch1", decompile that instead.

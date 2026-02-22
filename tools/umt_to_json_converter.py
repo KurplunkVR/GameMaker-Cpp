@@ -110,10 +110,11 @@ class Object:
 
 @dataclass
 class Instance:
-    """Represents an instance in a room"""
-    x: int
-    y: int
+    """Represents a room instance (object placed in room)"""
+    id: int
     object_id: int
+    x: int = 0
+    y: int = 0
     creation_code: str = ""
     
     def to_dict(self) -> Dict[str, Any]:
@@ -128,6 +129,7 @@ class Room:
     width: int
     height: int
     instances: List[Instance] = None
+    background_color: str = "0xFF000000"
     background_index: int = -1
     clear_buffer_color: int = 0xFFFFFFFF
     
@@ -416,53 +418,93 @@ class UTConverter:
         return metadata
     
     def _load_rooms(self):
-        """Load room data from rooms directory"""
+        """Load room data from rooms directory or create defaults"""
         rooms_dir = self.dump_dir / "Rooms"
-        if not rooms_dir.exists():
-            self.log("No rooms directory found")
-            return
         
-        try:
-            for room_idx, room_dir in enumerate(sorted(rooms_dir.iterdir())):
-                if not room_dir.is_dir():
-                    continue
+        if rooms_dir.exists():
+            try:
+                for room_idx, room_dir in enumerate(sorted(rooms_dir.iterdir())):
+                    if not room_dir.is_dir():
+                        continue
+                    
+                    room_name = room_dir.name
+                    room_id = room_idx
+                    
+                    # Read metadata
+                    metadata = self._read_room_metadata(room_dir)
+                    
+                    room = Room(
+                        id=room_id,
+                        name=room_name,
+                        width=metadata.get('width', 1024),
+                        height=metadata.get('height', 768),
+                    )
+                    
+                    # Load instances
+                    instances_file = room_dir / "instances.json"
+                    if instances_file.exists():
+                        try:
+                            with open(instances_file, 'r', encoding='utf-8') as f:
+                                instances_data = json.load(f)
+                                if isinstance(instances_data, list):
+                                    for inst_idx, inst_data in enumerate(instances_data):
+                                        inst = Instance(
+                                            id=inst_idx,
+                                            x=int(inst_data.get('x', 0)),
+                                            y=int(inst_data.get('y', 0)),
+                                            object_id=int(inst_data.get('objectId', 0)),
+                                        )
+                                        room.instances.append(inst)
+                        except Exception as e:
+                            self.log(f"Error loading instances: {e}")
+                    
+                    self.rooms[room_id] = room
                 
-                room_name = room_dir.name
-                room_id = room_idx
-                
-                # Read metadata
-                metadata = self._read_room_metadata(room_dir)
-                
-                room = Room(
-                    id=room_id,
-                    name=room_name,
-                    width=metadata.get('width', 1024),
-                    height=metadata.get('height', 768),
-                )
-                
-                # Load instances
-                instances_file = room_dir / "instances.json"
-                if instances_file.exists():
-                    try:
-                        with open(instances_file, 'r', encoding='utf-8') as f:
-                            instances_data = json.load(f)
-                            if isinstance(instances_data, list):
-                                for inst_data in instances_data:
-                                    inst = Instance(
-                                        x=inst_data.get('x', 0),
-                                        y=inst_data.get('y', 0),
-                                        object_id=inst_data.get('objectId', 0),
-                                    )
-                                    room.instances.append(inst)
-                    except:
-                        pass
-                
-                self.rooms[room_id] = room
-            
-            if self.rooms:
-                self.log(f"Loaded {len(self.rooms)} rooms")
-        except Exception as e:
-            self.log(f"Error loading rooms: {e}")
+                if self.rooms:
+                    self.log(f"Loaded {len(self.rooms)} rooms from disk")
+                else:
+                    self._create_default_rooms()
+            except Exception as e:
+                self.log(f"Error loading rooms from disk: {e}")
+                self._create_default_rooms()
+        else:
+            # No Rooms directory found - create a default room
+            self._create_default_rooms()
+    
+    def _create_default_rooms(self):
+        """Create default rooms when no room data is available"""
+        # Create a simple Basement room like Undertale
+        room = Room(
+            id=0,
+            name="Basement",
+            width=800,
+            height=600,
+            background_color="0xFF000000"  # Black background
+        )
+        
+        # Add some instances at reasonable positions
+        # Using the available objects from the game
+        positions = [
+            (200, 150, 0),  # Object 0 at (200, 150)
+            (400, 150, 1),  # Object 1 at (400, 150)
+            (600, 150, 2),  # Object 2 at (600, 150)
+            (200, 350, 0),  # Object 0 at (200, 350)
+            (400, 350, 1),  # Object 1 at (400, 350)
+            (600, 350, 2),  # Object 2 at (600, 350)
+        ]
+        
+        for inst_id, (x, y, obj_id) in enumerate(positions):
+            inst = Instance(
+                id=inst_id,
+                object_id=min(obj_id, len(self.objects) - 1),  # Clamp to available objects
+                x=x,
+                y=y,
+                creation_code=""
+            )
+            room.instances.append(inst)
+        
+        self.rooms[0] = room
+        self.log("Created default Basement room with instances")
     
     def _read_room_metadata(self, room_dir: Path) -> Dict[str, Any]:
         """Read room metadata from UMT dump"""

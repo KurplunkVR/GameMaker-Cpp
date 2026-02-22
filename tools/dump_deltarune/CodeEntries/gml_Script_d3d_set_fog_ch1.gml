@@ -1,0 +1,1 @@
+// This code entry is a reference to an anonymous function within "gml_GlobalScript_d3d_set_fog_ch1", decompile that instead.

@@ -304,6 +304,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\native\src\Audio.cpp" />
     <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\native\src\Layer.cpp" />
     <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\native\src\AssetLoader.cpp" />
+    <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\native\src\VM_Value.cpp" />
+    <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\native\src\VM_Executor.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

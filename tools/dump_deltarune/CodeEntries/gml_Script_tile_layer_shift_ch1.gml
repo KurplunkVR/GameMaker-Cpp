@@ -1,0 +1,1 @@
+// This code entry is a reference to an anonymous function within "gml_GlobalScript_tile_layer_shift_ch1", decompile that instead.

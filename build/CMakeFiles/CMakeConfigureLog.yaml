@@ -69,7 +69,7 @@ events:
       The output was:
       0
       MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-      Build started 2/21/2026 2:49:36 AM.
+      Build started 2/21/2026 10:34:52 PM.
       
       Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\4.1.2-msvc8\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -98,7 +98,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.51
+      Time Elapsed 00:00:00.69
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -584,7 +584,7 @@ events:
       The output was:
       0
       MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-      Build started 2/21/2026 2:49:37 AM.
+      Build started 2/21/2026 10:34:53 PM.
       
       Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\4.1.2-msvc8\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -613,7 +613,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.47
+      Time Elapsed 00:00:00.41
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -919,8 +919,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-toew2c"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-toew2c"
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-ukhwf5"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-ukhwf5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -929,40 +929,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-toew2c'
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-ukhwf5'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f3709.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ab361.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:38 AM.
+        Build started 2/21/2026 10:34:53 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toew2c\\cmTC_f3709.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukhwf5\\cmTC_ab361.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_f3709.dir\\Debug\\".
+          Creating directory "cmTC_ab361.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toew2c\\Debug\\".
-          Creating directory "cmTC_f3709.dir\\Debug\\cmTC_f3709.tlog\\".
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukhwf5\\Debug\\".
+          Creating directory "cmTC_ab361.dir\\Debug\\cmTC_ab361.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_f3709.dir\\Debug\\cmTC_f3709.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_f3709.dir\\Debug\\cmTC_f3709.tlog\\unsuccessfulbuild".
+          Creating "cmTC_ab361.dir\\Debug\\cmTC_ab361.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ab361.dir\\Debug\\cmTC_ab361.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_f3709.dir\\Debug\\\\" /Fd"cmTC_f3709.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ab361.dir\\Debug\\\\" /Fd"cmTC_ab361.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_f3709.dir\\Debug\\\\" /Fd"cmTC_f3709.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ab361.dir\\Debug\\\\" /Fd"cmTC_ab361.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toew2c\\Debug\\cmTC_f3709.exe" /INCREMENTAL /ILK:"cmTC_f3709.dir\\Debug\\cmTC_f3709.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-toew2c/Debug/cmTC_f3709.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-toew2c/Debug/cmTC_f3709.lib" /MACHINE:X64  /machine:x64 cmTC_f3709.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_f3709.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toew2c\\Debug\\cmTC_f3709.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukhwf5\\Debug\\cmTC_ab361.exe" /INCREMENTAL /ILK:"cmTC_ab361.dir\\Debug\\cmTC_ab361.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-ukhwf5/Debug/cmTC_ab361.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-ukhwf5/Debug/cmTC_ab361.lib" /MACHINE:X64  /machine:x64 cmTC_ab361.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ab361.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukhwf5\\Debug\\cmTC_ab361.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_f3709.dir\\Debug\\cmTC_f3709.tlog\\unsuccessfulbuild".
-          Touching "cmTC_f3709.dir\\Debug\\cmTC_f3709.tlog\\cmTC_f3709.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toew2c\\cmTC_f3709.vcxproj" (default targets).
+          Deleting file "cmTC_ab361.dir\\Debug\\cmTC_ab361.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ab361.dir\\Debug\\cmTC_ab361.tlog\\cmTC_ab361.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukhwf5\\cmTC_ab361.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.45
+        Time Elapsed 00:00:00.42
         
       exitCode: 0
   -
@@ -1002,8 +1002,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-25f8ix"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-25f8ix"
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-y1lmpy"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-y1lmpy"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1013,40 +1013,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-25f8ix'
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-y1lmpy'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_46bd0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6efd0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:38 AM.
+        Build started 2/21/2026 10:34:54 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25f8ix\\cmTC_46bd0.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y1lmpy\\cmTC_6efd0.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_46bd0.dir\\Debug\\".
+          Creating directory "cmTC_6efd0.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25f8ix\\Debug\\".
-          Creating directory "cmTC_46bd0.dir\\Debug\\cmTC_46bd0.tlog\\".
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y1lmpy\\Debug\\".
+          Creating directory "cmTC_6efd0.dir\\Debug\\cmTC_6efd0.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_46bd0.dir\\Debug\\cmTC_46bd0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_46bd0.dir\\Debug\\cmTC_46bd0.tlog\\unsuccessfulbuild".
+          Creating "cmTC_6efd0.dir\\Debug\\cmTC_6efd0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6efd0.dir\\Debug\\cmTC_6efd0.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_46bd0.dir\\Debug\\\\" /Fd"cmTC_46bd0.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_6efd0.dir\\Debug\\\\" /Fd"cmTC_6efd0.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_46bd0.dir\\Debug\\\\" /Fd"cmTC_46bd0.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_6efd0.dir\\Debug\\\\" /Fd"cmTC_6efd0.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25f8ix\\Debug\\cmTC_46bd0.exe" /INCREMENTAL /ILK:"cmTC_46bd0.dir\\Debug\\cmTC_46bd0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-25f8ix/Debug/cmTC_46bd0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-25f8ix/Debug/cmTC_46bd0.lib" /MACHINE:X64  /machine:x64 cmTC_46bd0.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_46bd0.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25f8ix\\Debug\\cmTC_46bd0.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y1lmpy\\Debug\\cmTC_6efd0.exe" /INCREMENTAL /ILK:"cmTC_6efd0.dir\\Debug\\cmTC_6efd0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-y1lmpy/Debug/cmTC_6efd0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-y1lmpy/Debug/cmTC_6efd0.lib" /MACHINE:X64  /machine:x64 cmTC_6efd0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_6efd0.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y1lmpy\\Debug\\cmTC_6efd0.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_46bd0.dir\\Debug\\cmTC_46bd0.tlog\\unsuccessfulbuild".
-          Touching "cmTC_46bd0.dir\\Debug\\cmTC_46bd0.tlog\\cmTC_46bd0.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25f8ix\\cmTC_46bd0.vcxproj" (default targets).
+          Deleting file "cmTC_6efd0.dir\\Debug\\cmTC_6efd0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6efd0.dir\\Debug\\cmTC_6efd0.tlog\\cmTC_6efd0.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y1lmpy\\cmTC_6efd0.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.44
+        Time Elapsed 00:00:00.42
         
       exitCode: 0
   -
@@ -1269,38 +1269,38 @@ events:
       stdout: |
         Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/vendored/SDL/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1e671.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6f0eb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:39 AM.
+        Build started 2/21/2026 10:34:55 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_1e671.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_6f0eb.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_1e671.dir\\Debug\\".
+          Creating directory "cmTC_6f0eb.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_1e671.dir\\Debug\\cmTC_1e671.tlog\\".
+          Creating directory "cmTC_6f0eb.dir\\Debug\\cmTC_6f0eb.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_1e671.dir\\Debug\\cmTC_1e671.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_1e671.dir\\Debug\\cmTC_1e671.tlog\\unsuccessfulbuild".
+          Creating "cmTC_6f0eb.dir\\Debug\\cmTC_6f0eb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6f0eb.dir\\Debug\\cmTC_6f0eb.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_1e671.dir\\Debug\\\\" /Fd"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_1e671.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6f0eb.dir\\Debug\\\\" /Fd"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_6f0eb.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_1e671.dir\\Debug\\\\" /Fd"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_1e671.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6f0eb.dir\\Debug\\\\" /Fd"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_6f0eb.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
           SDL_detect_arch.c
         Lib:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_1e671.lib" /NOLOGO /MACHINE:X64  /machine:x64 cmTC_1e671.dir\\Debug\\SDL_detect_arch.obj
-          cmTC_1e671.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_1e671.lib
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_6f0eb.lib" /NOLOGO /MACHINE:X64  /machine:x64 cmTC_6f0eb.dir\\Debug\\SDL_detect_arch.obj
+          cmTC_6f0eb.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_6f0eb.lib
         FinalizeBuildStatus:
-          Deleting file "cmTC_1e671.dir\\Debug\\cmTC_1e671.tlog\\unsuccessfulbuild".
-          Touching "cmTC_1e671.dir\\Debug\\cmTC_1e671.tlog\\cmTC_1e671.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_1e671.vcxproj" (default targets).
+          Deleting file "cmTC_6f0eb.dir\\Debug\\cmTC_6f0eb.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6f0eb.dir\\Debug\\cmTC_6f0eb.tlog\\cmTC_6f0eb.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_6f0eb.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.37
+        Time Elapsed 00:00:00.32
         
       exitCode: 0
   -
@@ -1313,8 +1313,8 @@ events:
     checks:
       - "Performing Test CAN_PRESEED"
     directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-kfj1qn"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-kfj1qn"
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-1n87iv"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-1n87iv"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1324,40 +1324,40 @@ events:
       variable: "CAN_PRESEED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-kfj1qn'
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-1n87iv'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8167f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d9a9b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:40 AM.
+        Build started 2/21/2026 10:34:55 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kfj1qn\\cmTC_8167f.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1n87iv\\cmTC_d9a9b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_8167f.dir\\Debug\\".
+          Creating directory "cmTC_d9a9b.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kfj1qn\\Debug\\".
-          Creating directory "cmTC_8167f.dir\\Debug\\cmTC_8167f.tlog\\".
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1n87iv\\Debug\\".
+          Creating directory "cmTC_d9a9b.dir\\Debug\\cmTC_d9a9b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_8167f.dir\\Debug\\cmTC_8167f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_8167f.dir\\Debug\\cmTC_8167f.tlog\\unsuccessfulbuild".
+          Creating "cmTC_d9a9b.dir\\Debug\\cmTC_d9a9b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d9a9b.dir\\Debug\\cmTC_d9a9b.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D CAN_PRESEED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8167f.dir\\Debug\\\\" /Fd"cmTC_8167f.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kfj1qn\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D CAN_PRESEED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d9a9b.dir\\Debug\\\\" /Fd"cmTC_d9a9b.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1n87iv\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D CAN_PRESEED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8167f.dir\\Debug\\\\" /Fd"cmTC_8167f.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kfj1qn\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D CAN_PRESEED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d9a9b.dir\\Debug\\\\" /Fd"cmTC_d9a9b.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1n87iv\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kfj1qn\\Debug\\cmTC_8167f.exe" /INCREMENTAL /ILK:"cmTC_8167f.dir\\Debug\\cmTC_8167f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-kfj1qn/Debug/cmTC_8167f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-kfj1qn/Debug/cmTC_8167f.lib" /MACHINE:X64  /machine:x64 cmTC_8167f.dir\\Debug\\src.obj
-          cmTC_8167f.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kfj1qn\\Debug\\cmTC_8167f.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1n87iv\\Debug\\cmTC_d9a9b.exe" /INCREMENTAL /ILK:"cmTC_d9a9b.dir\\Debug\\cmTC_d9a9b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-1n87iv/Debug/cmTC_d9a9b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-1n87iv/Debug/cmTC_d9a9b.lib" /MACHINE:X64  /machine:x64 cmTC_d9a9b.dir\\Debug\\src.obj
+          cmTC_d9a9b.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1n87iv\\Debug\\cmTC_d9a9b.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_8167f.dir\\Debug\\cmTC_8167f.tlog\\unsuccessfulbuild".
-          Touching "cmTC_8167f.dir\\Debug\\cmTC_8167f.tlog\\cmTC_8167f.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kfj1qn\\cmTC_8167f.vcxproj" (default targets).
+          Deleting file "cmTC_d9a9b.dir\\Debug\\cmTC_d9a9b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d9a9b.dir\\Debug\\cmTC_d9a9b.tlog\\cmTC_d9a9b.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1n87iv\\cmTC_d9a9b.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.43
+        Time Elapsed 00:00:00.41
         
       exitCode: 0
   -
@@ -1370,8 +1370,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_MMX"
     directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-7fff0u"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-7fff0u"
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-uhpzjb"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-uhpzjb"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1381,40 +1381,40 @@ events:
       variable: "COMPILER_SUPPORTS_MMX"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-7fff0u'
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-uhpzjb'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c583b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7c7df.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:40 AM.
+        Build started 2/21/2026 10:34:56 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7fff0u\\cmTC_c583b.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhpzjb\\cmTC_7c7df.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_c583b.dir\\Debug\\".
+          Creating directory "cmTC_7c7df.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7fff0u\\Debug\\".
-          Creating directory "cmTC_c583b.dir\\Debug\\cmTC_c583b.tlog\\".
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhpzjb\\Debug\\".
+          Creating directory "cmTC_7c7df.dir\\Debug\\cmTC_7c7df.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c583b.dir\\Debug\\cmTC_c583b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c583b.dir\\Debug\\cmTC_c583b.tlog\\unsuccessfulbuild".
+          Creating "cmTC_7c7df.dir\\Debug\\cmTC_7c7df.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7c7df.dir\\Debug\\cmTC_7c7df.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c583b.dir\\Debug\\\\" /Fd"cmTC_c583b.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7fff0u\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_7c7df.dir\\Debug\\\\" /Fd"cmTC_7c7df.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhpzjb\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c583b.dir\\Debug\\\\" /Fd"cmTC_c583b.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7fff0u\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_7c7df.dir\\Debug\\\\" /Fd"cmTC_7c7df.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhpzjb\\src.c"
           src.c
-        C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7fff0u\\src.c(15,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7fff0u\\cmTC_c583b.vcxproj]
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7fff0u\\cmTC_c583b.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhpzjb\\src.c(15,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhpzjb\\cmTC_7c7df.vcxproj]
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhpzjb\\cmTC_7c7df.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7fff0u\\cmTC_c583b.vcxproj" (default target) (1) ->
+        "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhpzjb\\cmTC_7c7df.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7fff0u\\src.c(15,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7fff0u\\cmTC_c583b.vcxproj]
+          C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhpzjb\\src.c(15,25): error C2440: '=': cannot convert from 'int' to '__m64' [C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhpzjb\\cmTC_7c7df.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.27
+        Time Elapsed 00:00:00.24
         
       exitCode: 1
   -
@@ -1427,8 +1427,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE"
     directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-4zvfc3"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-4zvfc3"
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-zwp5nx"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-zwp5nx"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1438,91 +1438,34 @@ events:
       variable: "COMPILER_SUPPORTS_SSE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-4zvfc3'
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-zwp5nx'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_04e8e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b5b6d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:41 AM.
+        Build started 2/21/2026 10:34:56 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zvfc3\\cmTC_04e8e.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwp5nx\\cmTC_b5b6d.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_04e8e.dir\\Debug\\".
+          Creating directory "cmTC_b5b6d.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zvfc3\\Debug\\".
-          Creating directory "cmTC_04e8e.dir\\Debug\\cmTC_04e8e.tlog\\".
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwp5nx\\Debug\\".
+          Creating directory "cmTC_b5b6d.dir\\Debug\\cmTC_b5b6d.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_04e8e.dir\\Debug\\cmTC_04e8e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_04e8e.dir\\Debug\\cmTC_04e8e.tlog\\unsuccessfulbuild".
+          Creating "cmTC_b5b6d.dir\\Debug\\cmTC_b5b6d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b5b6d.dir\\Debug\\cmTC_b5b6d.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_04e8e.dir\\Debug\\\\" /Fd"cmTC_04e8e.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zvfc3\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b5b6d.dir\\Debug\\\\" /Fd"cmTC_b5b6d.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwp5nx\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_04e8e.dir\\Debug\\\\" /Fd"cmTC_04e8e.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zvfc3\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b5b6d.dir\\Debug\\\\" /Fd"cmTC_b5b6d.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwp5nx\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zvfc3\\Debug\\cmTC_04e8e.exe" /INCREMENTAL /ILK:"cmTC_04e8e.dir\\Debug\\cmTC_04e8e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-4zvfc3/Debug/cmTC_04e8e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-4zvfc3/Debug/cmTC_04e8e.lib" /MACHINE:X64  /machine:x64 cmTC_04e8e.dir\\Debug\\src.obj
-          cmTC_04e8e.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zvfc3\\Debug\\cmTC_04e8e.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwp5nx\\Debug\\cmTC_b5b6d.exe" /INCREMENTAL /ILK:"cmTC_b5b6d.dir\\Debug\\cmTC_b5b6d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-zwp5nx/Debug/cmTC_b5b6d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-zwp5nx/Debug/cmTC_b5b6d.lib" /MACHINE:X64  /machine:x64 cmTC_b5b6d.dir\\Debug\\src.obj
+          cmTC_b5b6d.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwp5nx\\Debug\\cmTC_b5b6d.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_04e8e.dir\\Debug\\cmTC_04e8e.tlog\\unsuccessfulbuild".
-          Touching "cmTC_04e8e.dir\\Debug\\cmTC_04e8e.tlog\\cmTC_04e8e.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zvfc3\\cmTC_04e8e.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.45
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
-      - "vendored/SDL/cmake/sdlcompilers.cmake:198 (check_c_source_compiles)"
-      - "vendored/SDL/CMakeLists.txt:762 (check_x86_source_compiles)"
-    checks:
-      - "Performing Test COMPILER_SUPPORTS_SSE2"
-    directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-c8wp81"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-c8wp81"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
-      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/vendored/SDL/cmake"
-    buildResult:
-      variable: "COMPILER_SUPPORTS_SSE2"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-c8wp81'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e9c0c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
-        MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:41 AM.
-        
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8wp81\\cmTC_e9c0c.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_e9c0c.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8wp81\\Debug\\".
-          Creating directory "cmTC_e9c0c.dir\\Debug\\cmTC_e9c0c.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_e9c0c.dir\\Debug\\cmTC_e9c0c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_e9c0c.dir\\Debug\\cmTC_e9c0c.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_e9c0c.dir\\Debug\\\\" /Fd"cmTC_e9c0c.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8wp81\\src.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_e9c0c.dir\\Debug\\\\" /Fd"cmTC_e9c0c.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8wp81\\src.c"
-          src.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8wp81\\Debug\\cmTC_e9c0c.exe" /INCREMENTAL /ILK:"cmTC_e9c0c.dir\\Debug\\cmTC_e9c0c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-c8wp81/Debug/cmTC_e9c0c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-c8wp81/Debug/cmTC_e9c0c.lib" /MACHINE:X64  /machine:x64 cmTC_e9c0c.dir\\Debug\\src.obj
-          cmTC_e9c0c.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8wp81\\Debug\\cmTC_e9c0c.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_e9c0c.dir\\Debug\\cmTC_e9c0c.tlog\\unsuccessfulbuild".
-          Touching "cmTC_e9c0c.dir\\Debug\\cmTC_e9c0c.tlog\\cmTC_e9c0c.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8wp81\\cmTC_e9c0c.vcxproj" (default targets).
+          Deleting file "cmTC_b5b6d.dir\\Debug\\cmTC_b5b6d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b5b6d.dir\\Debug\\cmTC_b5b6d.tlog\\cmTC_b5b6d.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwp5nx\\cmTC_b5b6d.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -1537,12 +1480,69 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
       - "vendored/SDL/cmake/sdlcompilers.cmake:198 (check_c_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:762 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE2"
+    directories:
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-60xvqd"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-60xvqd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-60xvqd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_776b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
+        Build started 2/21/2026 10:34:57 PM.
+        
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-60xvqd\\cmTC_776b5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_776b5.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-60xvqd\\Debug\\".
+          Creating directory "cmTC_776b5.dir\\Debug\\cmTC_776b5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_776b5.dir\\Debug\\cmTC_776b5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_776b5.dir\\Debug\\cmTC_776b5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_776b5.dir\\Debug\\\\" /Fd"cmTC_776b5.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-60xvqd\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_776b5.dir\\Debug\\\\" /Fd"cmTC_776b5.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-60xvqd\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-60xvqd\\Debug\\cmTC_776b5.exe" /INCREMENTAL /ILK:"cmTC_776b5.dir\\Debug\\cmTC_776b5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-60xvqd/Debug/cmTC_776b5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-60xvqd/Debug/cmTC_776b5.lib" /MACHINE:X64  /machine:x64 cmTC_776b5.dir\\Debug\\src.obj
+          cmTC_776b5.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-60xvqd\\Debug\\cmTC_776b5.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_776b5.dir\\Debug\\cmTC_776b5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_776b5.dir\\Debug\\cmTC_776b5.tlog\\cmTC_776b5.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-60xvqd\\cmTC_776b5.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "vendored/SDL/cmake/sdlcompilers.cmake:198 (check_c_source_compiles)"
       - "vendored/SDL/CMakeLists.txt:783 (check_x86_source_compiles)"
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE3"
     directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-x18gud"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-x18gud"
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-7cnd3i"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-7cnd3i"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1552,34 +1552,34 @@ events:
       variable: "COMPILER_SUPPORTS_SSE3"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-x18gud'
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-7cnd3i'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2e533.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6a2ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:42 AM.
+        Build started 2/21/2026 10:34:57 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x18gud\\cmTC_2e533.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7cnd3i\\cmTC_6a2ba.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_2e533.dir\\Debug\\".
+          Creating directory "cmTC_6a2ba.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x18gud\\Debug\\".
-          Creating directory "cmTC_2e533.dir\\Debug\\cmTC_2e533.tlog\\".
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7cnd3i\\Debug\\".
+          Creating directory "cmTC_6a2ba.dir\\Debug\\cmTC_6a2ba.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_2e533.dir\\Debug\\cmTC_2e533.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_2e533.dir\\Debug\\cmTC_2e533.tlog\\unsuccessfulbuild".
+          Creating "cmTC_6a2ba.dir\\Debug\\cmTC_6a2ba.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6a2ba.dir\\Debug\\cmTC_6a2ba.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_2e533.dir\\Debug\\\\" /Fd"cmTC_2e533.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x18gud\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6a2ba.dir\\Debug\\\\" /Fd"cmTC_6a2ba.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7cnd3i\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_2e533.dir\\Debug\\\\" /Fd"cmTC_2e533.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x18gud\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6a2ba.dir\\Debug\\\\" /Fd"cmTC_6a2ba.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7cnd3i\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x18gud\\Debug\\cmTC_2e533.exe" /INCREMENTAL /ILK:"cmTC_2e533.dir\\Debug\\cmTC_2e533.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-x18gud/Debug/cmTC_2e533.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-x18gud/Debug/cmTC_2e533.lib" /MACHINE:X64  /machine:x64 cmTC_2e533.dir\\Debug\\src.obj
-          cmTC_2e533.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x18gud\\Debug\\cmTC_2e533.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7cnd3i\\Debug\\cmTC_6a2ba.exe" /INCREMENTAL /ILK:"cmTC_6a2ba.dir\\Debug\\cmTC_6a2ba.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-7cnd3i/Debug/cmTC_6a2ba.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-7cnd3i/Debug/cmTC_6a2ba.lib" /MACHINE:X64  /machine:x64 cmTC_6a2ba.dir\\Debug\\src.obj
+          cmTC_6a2ba.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7cnd3i\\Debug\\cmTC_6a2ba.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_2e533.dir\\Debug\\cmTC_2e533.tlog\\unsuccessfulbuild".
-          Touching "cmTC_2e533.dir\\Debug\\cmTC_2e533.tlog\\cmTC_2e533.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x18gud\\cmTC_2e533.vcxproj" (default targets).
+          Deleting file "cmTC_6a2ba.dir\\Debug\\cmTC_6a2ba.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6a2ba.dir\\Debug\\cmTC_6a2ba.tlog\\cmTC_6a2ba.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7cnd3i\\cmTC_6a2ba.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -1598,8 +1598,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE4_1"
     directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-e0omn0"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-e0omn0"
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-asiqr9"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-asiqr9"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1609,91 +1609,34 @@ events:
       variable: "COMPILER_SUPPORTS_SSE4_1"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-e0omn0'
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-asiqr9'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dd0ea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d5aaf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:43 AM.
+        Build started 2/21/2026 10:34:58 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0omn0\\cmTC_dd0ea.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asiqr9\\cmTC_d5aaf.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_dd0ea.dir\\Debug\\".
+          Creating directory "cmTC_d5aaf.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0omn0\\Debug\\".
-          Creating directory "cmTC_dd0ea.dir\\Debug\\cmTC_dd0ea.tlog\\".
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asiqr9\\Debug\\".
+          Creating directory "cmTC_d5aaf.dir\\Debug\\cmTC_d5aaf.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_dd0ea.dir\\Debug\\cmTC_dd0ea.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_dd0ea.dir\\Debug\\cmTC_dd0ea.tlog\\unsuccessfulbuild".
+          Creating "cmTC_d5aaf.dir\\Debug\\cmTC_d5aaf.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d5aaf.dir\\Debug\\cmTC_d5aaf.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_dd0ea.dir\\Debug\\\\" /Fd"cmTC_dd0ea.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0omn0\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d5aaf.dir\\Debug\\\\" /Fd"cmTC_d5aaf.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asiqr9\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_dd0ea.dir\\Debug\\\\" /Fd"cmTC_dd0ea.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0omn0\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d5aaf.dir\\Debug\\\\" /Fd"cmTC_d5aaf.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asiqr9\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0omn0\\Debug\\cmTC_dd0ea.exe" /INCREMENTAL /ILK:"cmTC_dd0ea.dir\\Debug\\cmTC_dd0ea.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-e0omn0/Debug/cmTC_dd0ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-e0omn0/Debug/cmTC_dd0ea.lib" /MACHINE:X64  /machine:x64 cmTC_dd0ea.dir\\Debug\\src.obj
-          cmTC_dd0ea.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0omn0\\Debug\\cmTC_dd0ea.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asiqr9\\Debug\\cmTC_d5aaf.exe" /INCREMENTAL /ILK:"cmTC_d5aaf.dir\\Debug\\cmTC_d5aaf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-asiqr9/Debug/cmTC_d5aaf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-asiqr9/Debug/cmTC_d5aaf.lib" /MACHINE:X64  /machine:x64 cmTC_d5aaf.dir\\Debug\\src.obj
+          cmTC_d5aaf.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asiqr9\\Debug\\cmTC_d5aaf.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_dd0ea.dir\\Debug\\cmTC_dd0ea.tlog\\unsuccessfulbuild".
-          Touching "cmTC_dd0ea.dir\\Debug\\cmTC_dd0ea.tlog\\cmTC_dd0ea.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0omn0\\cmTC_dd0ea.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.45
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
-      - "vendored/SDL/cmake/sdlcompilers.cmake:198 (check_c_source_compiles)"
-      - "vendored/SDL/CMakeLists.txt:825 (check_x86_source_compiles)"
-    checks:
-      - "Performing Test COMPILER_SUPPORTS_SSE4_2"
-    directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-xmwrzm"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-xmwrzm"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
-      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/vendored/SDL/cmake"
-    buildResult:
-      variable: "COMPILER_SUPPORTS_SSE4_2"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-xmwrzm'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5224c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
-        MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:44 AM.
-        
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xmwrzm\\cmTC_5224c.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_5224c.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xmwrzm\\Debug\\".
-          Creating directory "cmTC_5224c.dir\\Debug\\cmTC_5224c.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_5224c.dir\\Debug\\cmTC_5224c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_5224c.dir\\Debug\\cmTC_5224c.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_5224c.dir\\Debug\\\\" /Fd"cmTC_5224c.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xmwrzm\\src.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_5224c.dir\\Debug\\\\" /Fd"cmTC_5224c.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xmwrzm\\src.c"
-          src.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xmwrzm\\Debug\\cmTC_5224c.exe" /INCREMENTAL /ILK:"cmTC_5224c.dir\\Debug\\cmTC_5224c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-xmwrzm/Debug/cmTC_5224c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-xmwrzm/Debug/cmTC_5224c.lib" /MACHINE:X64  /machine:x64 cmTC_5224c.dir\\Debug\\src.obj
-          cmTC_5224c.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xmwrzm\\Debug\\cmTC_5224c.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_5224c.dir\\Debug\\cmTC_5224c.tlog\\unsuccessfulbuild".
-          Touching "cmTC_5224c.dir\\Debug\\cmTC_5224c.tlog\\cmTC_5224c.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xmwrzm\\cmTC_5224c.vcxproj" (default targets).
+          Deleting file "cmTC_d5aaf.dir\\Debug\\cmTC_d5aaf.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d5aaf.dir\\Debug\\cmTC_d5aaf.tlog\\cmTC_d5aaf.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-asiqr9\\cmTC_d5aaf.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -1708,12 +1651,69 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
       - "vendored/SDL/cmake/sdlcompilers.cmake:198 (check_c_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:825 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_2"
+    directories:
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-7lfrtm"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-7lfrtm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-7lfrtm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ec923.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
+        Build started 2/21/2026 10:34:58 PM.
+        
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lfrtm\\cmTC_ec923.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ec923.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lfrtm\\Debug\\".
+          Creating directory "cmTC_ec923.dir\\Debug\\cmTC_ec923.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ec923.dir\\Debug\\cmTC_ec923.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ec923.dir\\Debug\\cmTC_ec923.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ec923.dir\\Debug\\\\" /Fd"cmTC_ec923.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lfrtm\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ec923.dir\\Debug\\\\" /Fd"cmTC_ec923.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lfrtm\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lfrtm\\Debug\\cmTC_ec923.exe" /INCREMENTAL /ILK:"cmTC_ec923.dir\\Debug\\cmTC_ec923.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-7lfrtm/Debug/cmTC_ec923.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-7lfrtm/Debug/cmTC_ec923.lib" /MACHINE:X64  /machine:x64 cmTC_ec923.dir\\Debug\\src.obj
+          cmTC_ec923.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lfrtm\\Debug\\cmTC_ec923.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_ec923.dir\\Debug\\cmTC_ec923.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ec923.dir\\Debug\\cmTC_ec923.tlog\\cmTC_ec923.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lfrtm\\cmTC_ec923.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.41
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "vendored/SDL/cmake/sdlcompilers.cmake:198 (check_c_source_compiles)"
       - "vendored/SDL/CMakeLists.txt:843 (check_x86_source_compiles)"
     checks:
       - "Performing Test COMPILER_SUPPORTS_AVX"
     directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-mv9z3v"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-mv9z3v"
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-qraskn"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-qraskn"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1723,40 +1723,40 @@ events:
       variable: "COMPILER_SUPPORTS_AVX"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-mv9z3v'
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-qraskn'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_012e8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d06f1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:44 AM.
+        Build started 2/21/2026 10:34:59 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv9z3v\\cmTC_012e8.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qraskn\\cmTC_d06f1.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_012e8.dir\\Debug\\".
+          Creating directory "cmTC_d06f1.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv9z3v\\Debug\\".
-          Creating directory "cmTC_012e8.dir\\Debug\\cmTC_012e8.tlog\\".
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qraskn\\Debug\\".
+          Creating directory "cmTC_d06f1.dir\\Debug\\cmTC_d06f1.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_012e8.dir\\Debug\\cmTC_012e8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_012e8.dir\\Debug\\cmTC_012e8.tlog\\unsuccessfulbuild".
+          Creating "cmTC_d06f1.dir\\Debug\\cmTC_d06f1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d06f1.dir\\Debug\\cmTC_d06f1.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_012e8.dir\\Debug\\\\" /Fd"cmTC_012e8.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv9z3v\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d06f1.dir\\Debug\\\\" /Fd"cmTC_d06f1.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qraskn\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_012e8.dir\\Debug\\\\" /Fd"cmTC_012e8.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv9z3v\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d06f1.dir\\Debug\\\\" /Fd"cmTC_d06f1.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qraskn\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv9z3v\\Debug\\cmTC_012e8.exe" /INCREMENTAL /ILK:"cmTC_012e8.dir\\Debug\\cmTC_012e8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-mv9z3v/Debug/cmTC_012e8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-mv9z3v/Debug/cmTC_012e8.lib" /MACHINE:X64  /machine:x64 cmTC_012e8.dir\\Debug\\src.obj
-          cmTC_012e8.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv9z3v\\Debug\\cmTC_012e8.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qraskn\\Debug\\cmTC_d06f1.exe" /INCREMENTAL /ILK:"cmTC_d06f1.dir\\Debug\\cmTC_d06f1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-qraskn/Debug/cmTC_d06f1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-qraskn/Debug/cmTC_d06f1.lib" /MACHINE:X64  /machine:x64 cmTC_d06f1.dir\\Debug\\src.obj
+          cmTC_d06f1.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qraskn\\Debug\\cmTC_d06f1.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_012e8.dir\\Debug\\cmTC_012e8.tlog\\unsuccessfulbuild".
-          Touching "cmTC_012e8.dir\\Debug\\cmTC_012e8.tlog\\cmTC_012e8.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mv9z3v\\cmTC_012e8.vcxproj" (default targets).
+          Deleting file "cmTC_d06f1.dir\\Debug\\cmTC_d06f1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d06f1.dir\\Debug\\cmTC_d06f1.tlog\\cmTC_d06f1.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qraskn\\cmTC_d06f1.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.47
+        Time Elapsed 00:00:00.44
         
       exitCode: 0
   -
@@ -1769,8 +1769,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_AVX2"
     directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-vq0788"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-vq0788"
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-uc2idz"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-uc2idz"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1780,40 +1780,40 @@ events:
       variable: "COMPILER_SUPPORTS_AVX2"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-vq0788'
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-uc2idz'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cf04e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_eff46.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:45 AM.
+        Build started 2/21/2026 10:35:00 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vq0788\\cmTC_cf04e.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uc2idz\\cmTC_eff46.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_cf04e.dir\\Debug\\".
+          Creating directory "cmTC_eff46.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vq0788\\Debug\\".
-          Creating directory "cmTC_cf04e.dir\\Debug\\cmTC_cf04e.tlog\\".
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uc2idz\\Debug\\".
+          Creating directory "cmTC_eff46.dir\\Debug\\cmTC_eff46.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_cf04e.dir\\Debug\\cmTC_cf04e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_cf04e.dir\\Debug\\cmTC_cf04e.tlog\\unsuccessfulbuild".
+          Creating "cmTC_eff46.dir\\Debug\\cmTC_eff46.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_eff46.dir\\Debug\\cmTC_eff46.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_cf04e.dir\\Debug\\\\" /Fd"cmTC_cf04e.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vq0788\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_eff46.dir\\Debug\\\\" /Fd"cmTC_eff46.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uc2idz\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_cf04e.dir\\Debug\\\\" /Fd"cmTC_cf04e.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vq0788\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_eff46.dir\\Debug\\\\" /Fd"cmTC_eff46.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uc2idz\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vq0788\\Debug\\cmTC_cf04e.exe" /INCREMENTAL /ILK:"cmTC_cf04e.dir\\Debug\\cmTC_cf04e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-vq0788/Debug/cmTC_cf04e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-vq0788/Debug/cmTC_cf04e.lib" /MACHINE:X64  /machine:x64 cmTC_cf04e.dir\\Debug\\src.obj
-          cmTC_cf04e.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vq0788\\Debug\\cmTC_cf04e.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uc2idz\\Debug\\cmTC_eff46.exe" /INCREMENTAL /ILK:"cmTC_eff46.dir\\Debug\\cmTC_eff46.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-uc2idz/Debug/cmTC_eff46.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-uc2idz/Debug/cmTC_eff46.lib" /MACHINE:X64  /machine:x64 cmTC_eff46.dir\\Debug\\src.obj
+          cmTC_eff46.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uc2idz\\Debug\\cmTC_eff46.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_cf04e.dir\\Debug\\cmTC_cf04e.tlog\\unsuccessfulbuild".
-          Touching "cmTC_cf04e.dir\\Debug\\cmTC_cf04e.tlog\\cmTC_cf04e.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vq0788\\cmTC_cf04e.vcxproj" (default targets).
+          Deleting file "cmTC_eff46.dir\\Debug\\cmTC_eff46.tlog\\unsuccessfulbuild".
+          Touching "cmTC_eff46.dir\\Debug\\cmTC_eff46.tlog\\cmTC_eff46.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uc2idz\\cmTC_eff46.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.48
+        Time Elapsed 00:00:00.44
         
       exitCode: 0
   -
@@ -1826,8 +1826,8 @@ events:
     checks:
       - "Performing Test COMPILER_SUPPORTS_AVX512F"
     directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-jb84rr"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-jb84rr"
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-hl06ms"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-hl06ms"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1837,40 +1837,40 @@ events:
       variable: "COMPILER_SUPPORTS_AVX512F"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-jb84rr'
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-hl06ms'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f44bf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_45d99.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:46 AM.
+        Build started 2/21/2026 10:35:00 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jb84rr\\cmTC_f44bf.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hl06ms\\cmTC_45d99.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_f44bf.dir\\Debug\\".
+          Creating directory "cmTC_45d99.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jb84rr\\Debug\\".
-          Creating directory "cmTC_f44bf.dir\\Debug\\cmTC_f44bf.tlog\\".
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hl06ms\\Debug\\".
+          Creating directory "cmTC_45d99.dir\\Debug\\cmTC_45d99.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_f44bf.dir\\Debug\\cmTC_f44bf.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_f44bf.dir\\Debug\\cmTC_f44bf.tlog\\unsuccessfulbuild".
+          Creating "cmTC_45d99.dir\\Debug\\cmTC_45d99.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_45d99.dir\\Debug\\cmTC_45d99.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_f44bf.dir\\Debug\\\\" /Fd"cmTC_f44bf.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jb84rr\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_45d99.dir\\Debug\\\\" /Fd"cmTC_45d99.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hl06ms\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_f44bf.dir\\Debug\\\\" /Fd"cmTC_f44bf.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jb84rr\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_45d99.dir\\Debug\\\\" /Fd"cmTC_45d99.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hl06ms\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jb84rr\\Debug\\cmTC_f44bf.exe" /INCREMENTAL /ILK:"cmTC_f44bf.dir\\Debug\\cmTC_f44bf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-jb84rr/Debug/cmTC_f44bf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-jb84rr/Debug/cmTC_f44bf.lib" /MACHINE:X64  /machine:x64 cmTC_f44bf.dir\\Debug\\src.obj
-          cmTC_f44bf.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jb84rr\\Debug\\cmTC_f44bf.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hl06ms\\Debug\\cmTC_45d99.exe" /INCREMENTAL /ILK:"cmTC_45d99.dir\\Debug\\cmTC_45d99.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-hl06ms/Debug/cmTC_45d99.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-hl06ms/Debug/cmTC_45d99.lib" /MACHINE:X64  /machine:x64 cmTC_45d99.dir\\Debug\\src.obj
+          cmTC_45d99.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hl06ms\\Debug\\cmTC_45d99.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_f44bf.dir\\Debug\\cmTC_f44bf.tlog\\unsuccessfulbuild".
-          Touching "cmTC_f44bf.dir\\Debug\\cmTC_f44bf.tlog\\cmTC_f44bf.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jb84rr\\cmTC_f44bf.vcxproj" (default targets).
+          Deleting file "cmTC_45d99.dir\\Debug\\cmTC_45d99.tlog\\unsuccessfulbuild".
+          Touching "cmTC_45d99.dir\\Debug\\cmTC_45d99.tlog\\cmTC_45d99.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hl06ms\\cmTC_45d99.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.46
+        Time Elapsed 00:00:00.43
         
       exitCode: 0
   -
@@ -1882,8 +1882,8 @@ events:
     checks:
       - "Looking for _copysign"
     directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-u6kxlo"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-u6kxlo"
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-alm5ur"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-alm5ur"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1893,40 +1893,40 @@ events:
       variable: "LIBC_HAS__COPYSIGN"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-u6kxlo'
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-alm5ur'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e7d09.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fc08e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:46 AM.
+        Build started 2/21/2026 10:35:01 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u6kxlo\\cmTC_e7d09.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-alm5ur\\cmTC_fc08e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_e7d09.dir\\Debug\\".
+          Creating directory "cmTC_fc08e.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u6kxlo\\Debug\\".
-          Creating directory "cmTC_e7d09.dir\\Debug\\cmTC_e7d09.tlog\\".
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-alm5ur\\Debug\\".
+          Creating directory "cmTC_fc08e.dir\\Debug\\cmTC_fc08e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_e7d09.dir\\Debug\\cmTC_e7d09.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_e7d09.dir\\Debug\\cmTC_e7d09.tlog\\unsuccessfulbuild".
+          Creating "cmTC_fc08e.dir\\Debug\\cmTC_fc08e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_fc08e.dir\\Debug\\cmTC_fc08e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_e7d09.dir\\Debug\\\\" /Fd"cmTC_e7d09.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u6kxlo\\CheckSymbolExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_fc08e.dir\\Debug\\\\" /Fd"cmTC_fc08e.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-alm5ur\\CheckSymbolExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_e7d09.dir\\Debug\\\\" /Fd"cmTC_e7d09.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u6kxlo\\CheckSymbolExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_fc08e.dir\\Debug\\\\" /Fd"cmTC_fc08e.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-alm5ur\\CheckSymbolExists.c"
           CheckSymbolExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u6kxlo\\Debug\\cmTC_e7d09.exe" /INCREMENTAL /ILK:"cmTC_e7d09.dir\\Debug\\cmTC_e7d09.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-u6kxlo/Debug/cmTC_e7d09.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-u6kxlo/Debug/cmTC_e7d09.lib" /MACHINE:X64  /machine:x64 cmTC_e7d09.dir\\Debug\\CheckSymbolExists.obj
-          cmTC_e7d09.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u6kxlo\\Debug\\cmTC_e7d09.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-alm5ur\\Debug\\cmTC_fc08e.exe" /INCREMENTAL /ILK:"cmTC_fc08e.dir\\Debug\\cmTC_fc08e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-alm5ur/Debug/cmTC_fc08e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-alm5ur/Debug/cmTC_fc08e.lib" /MACHINE:X64  /machine:x64 cmTC_fc08e.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_fc08e.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-alm5ur\\Debug\\cmTC_fc08e.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_e7d09.dir\\Debug\\cmTC_e7d09.tlog\\unsuccessfulbuild".
-          Touching "cmTC_e7d09.dir\\Debug\\cmTC_e7d09.tlog\\cmTC_e7d09.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u6kxlo\\cmTC_e7d09.vcxproj" (default targets).
+          Deleting file "cmTC_fc08e.dir\\Debug\\cmTC_fc08e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_fc08e.dir\\Debug\\cmTC_fc08e.tlog\\cmTC_fc08e.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-alm5ur\\cmTC_fc08e.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.50
+        Time Elapsed 00:00:00.45
         
       exitCode: 0
   -
@@ -1938,8 +1938,8 @@ events:
     checks:
       - "Looking for _fseeki64"
     directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-92r0uh"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-92r0uh"
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-h74ceo"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-h74ceo"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1949,40 +1949,40 @@ events:
       variable: "LIBC_HAS__FSEEKI64"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-92r0uh'
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-h74ceo'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0174d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_be887.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:47 AM.
+        Build started 2/21/2026 10:35:01 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-92r0uh\\cmTC_0174d.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h74ceo\\cmTC_be887.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_0174d.dir\\Debug\\".
+          Creating directory "cmTC_be887.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-92r0uh\\Debug\\".
-          Creating directory "cmTC_0174d.dir\\Debug\\cmTC_0174d.tlog\\".
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h74ceo\\Debug\\".
+          Creating directory "cmTC_be887.dir\\Debug\\cmTC_be887.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_0174d.dir\\Debug\\cmTC_0174d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_0174d.dir\\Debug\\cmTC_0174d.tlog\\unsuccessfulbuild".
+          Creating "cmTC_be887.dir\\Debug\\cmTC_be887.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_be887.dir\\Debug\\cmTC_be887.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_0174d.dir\\Debug\\\\" /Fd"cmTC_0174d.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-92r0uh\\CheckSymbolExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_be887.dir\\Debug\\\\" /Fd"cmTC_be887.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h74ceo\\CheckSymbolExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_0174d.dir\\Debug\\\\" /Fd"cmTC_0174d.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-92r0uh\\CheckSymbolExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_be887.dir\\Debug\\\\" /Fd"cmTC_be887.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h74ceo\\CheckSymbolExists.c"
           CheckSymbolExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-92r0uh\\Debug\\cmTC_0174d.exe" /INCREMENTAL /ILK:"cmTC_0174d.dir\\Debug\\cmTC_0174d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-92r0uh/Debug/cmTC_0174d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-92r0uh/Debug/cmTC_0174d.lib" /MACHINE:X64  /machine:x64 cmTC_0174d.dir\\Debug\\CheckSymbolExists.obj
-          cmTC_0174d.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-92r0uh\\Debug\\cmTC_0174d.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h74ceo\\Debug\\cmTC_be887.exe" /INCREMENTAL /ILK:"cmTC_be887.dir\\Debug\\cmTC_be887.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-h74ceo/Debug/cmTC_be887.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-h74ceo/Debug/cmTC_be887.lib" /MACHINE:X64  /machine:x64 cmTC_be887.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_be887.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h74ceo\\Debug\\cmTC_be887.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_0174d.dir\\Debug\\cmTC_0174d.tlog\\unsuccessfulbuild".
-          Touching "cmTC_0174d.dir\\Debug\\cmTC_0174d.tlog\\cmTC_0174d.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-92r0uh\\cmTC_0174d.vcxproj" (default targets).
+          Deleting file "cmTC_be887.dir\\Debug\\cmTC_be887.tlog\\unsuccessfulbuild".
+          Touching "cmTC_be887.dir\\Debug\\cmTC_be887.tlog\\cmTC_be887.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h74ceo\\cmTC_be887.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.48
+        Time Elapsed 00:00:00.45
         
       exitCode: 0
   -
@@ -1994,8 +1994,8 @@ events:
     checks:
       - "Performing Test HAVE_GAMEINPUT_H"
     directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-5ija2m"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-5ija2m"
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-hoc003"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-hoc003"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2005,40 +2005,40 @@ events:
       variable: "HAVE_GAMEINPUT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-5ija2m'
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-hoc003'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8d324.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c76b2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:48 AM.
+        Build started 2/21/2026 10:35:02 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ija2m\\cmTC_8d324.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hoc003\\cmTC_c76b2.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_8d324.dir\\Debug\\".
+          Creating directory "cmTC_c76b2.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ija2m\\Debug\\".
-          Creating directory "cmTC_8d324.dir\\Debug\\cmTC_8d324.tlog\\".
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hoc003\\Debug\\".
+          Creating directory "cmTC_c76b2.dir\\Debug\\cmTC_c76b2.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_8d324.dir\\Debug\\cmTC_8d324.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_8d324.dir\\Debug\\cmTC_8d324.tlog\\unsuccessfulbuild".
+          Creating "cmTC_c76b2.dir\\Debug\\cmTC_c76b2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c76b2.dir\\Debug\\cmTC_c76b2.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8d324.dir\\Debug\\\\" /Fd"cmTC_8d324.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ija2m\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c76b2.dir\\Debug\\\\" /Fd"cmTC_c76b2.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hoc003\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8d324.dir\\Debug\\\\" /Fd"cmTC_8d324.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ija2m\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c76b2.dir\\Debug\\\\" /Fd"cmTC_c76b2.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hoc003\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ija2m\\Debug\\cmTC_8d324.exe" /INCREMENTAL /ILK:"cmTC_8d324.dir\\Debug\\cmTC_8d324.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-5ija2m/Debug/cmTC_8d324.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-5ija2m/Debug/cmTC_8d324.lib" /MACHINE:X64  /machine:x64 cmTC_8d324.dir\\Debug\\src.obj
-          cmTC_8d324.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ija2m\\Debug\\cmTC_8d324.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hoc003\\Debug\\cmTC_c76b2.exe" /INCREMENTAL /ILK:"cmTC_c76b2.dir\\Debug\\cmTC_c76b2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-hoc003/Debug/cmTC_c76b2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-hoc003/Debug/cmTC_c76b2.lib" /MACHINE:X64  /machine:x64 cmTC_c76b2.dir\\Debug\\src.obj
+          cmTC_c76b2.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hoc003\\Debug\\cmTC_c76b2.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_8d324.dir\\Debug\\cmTC_8d324.tlog\\unsuccessfulbuild".
-          Touching "cmTC_8d324.dir\\Debug\\cmTC_8d324.tlog\\cmTC_8d324.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ija2m\\cmTC_8d324.vcxproj" (default targets).
+          Deleting file "cmTC_c76b2.dir\\Debug\\cmTC_c76b2.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c76b2.dir\\Debug\\cmTC_c76b2.tlog\\cmTC_c76b2.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hoc003\\cmTC_c76b2.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.66
+        Time Elapsed 00:00:00.61
         
       exitCode: 0
   -
@@ -2049,8 +2049,8 @@ events:
     checks:
       - "Looking for dxgi1_5.h"
     directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-34a6ur"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-34a6ur"
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-1782af"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-1782af"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2060,40 +2060,40 @@ events:
       variable: "HAVE_DXGI1_5_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-34a6ur'
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-1782af'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5b829.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4bbb9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:49 AM.
+        Build started 2/21/2026 10:35:03 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-34a6ur\\cmTC_5b829.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1782af\\cmTC_4bbb9.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_5b829.dir\\Debug\\".
+          Creating directory "cmTC_4bbb9.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-34a6ur\\Debug\\".
-          Creating directory "cmTC_5b829.dir\\Debug\\cmTC_5b829.tlog\\".
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1782af\\Debug\\".
+          Creating directory "cmTC_4bbb9.dir\\Debug\\cmTC_4bbb9.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_5b829.dir\\Debug\\cmTC_5b829.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_5b829.dir\\Debug\\cmTC_5b829.tlog\\unsuccessfulbuild".
+          Creating "cmTC_4bbb9.dir\\Debug\\cmTC_4bbb9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4bbb9.dir\\Debug\\cmTC_4bbb9.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_5b829.dir\\Debug\\\\" /Fd"cmTC_5b829.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-34a6ur\\CheckIncludeFile.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_4bbb9.dir\\Debug\\\\" /Fd"cmTC_4bbb9.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1782af\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_5b829.dir\\Debug\\\\" /Fd"cmTC_5b829.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-34a6ur\\CheckIncludeFile.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_4bbb9.dir\\Debug\\\\" /Fd"cmTC_4bbb9.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1782af\\CheckIncludeFile.c"
           CheckIncludeFile.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-34a6ur\\Debug\\cmTC_5b829.exe" /INCREMENTAL /ILK:"cmTC_5b829.dir\\Debug\\cmTC_5b829.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-34a6ur/Debug/cmTC_5b829.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-34a6ur/Debug/cmTC_5b829.lib" /MACHINE:X64  /machine:x64 cmTC_5b829.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_5b829.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-34a6ur\\Debug\\cmTC_5b829.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1782af\\Debug\\cmTC_4bbb9.exe" /INCREMENTAL /ILK:"cmTC_4bbb9.dir\\Debug\\cmTC_4bbb9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-1782af/Debug/cmTC_4bbb9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-1782af/Debug/cmTC_4bbb9.lib" /MACHINE:X64  /machine:x64 cmTC_4bbb9.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_4bbb9.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1782af\\Debug\\cmTC_4bbb9.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_5b829.dir\\Debug\\cmTC_5b829.tlog\\unsuccessfulbuild".
-          Touching "cmTC_5b829.dir\\Debug\\cmTC_5b829.tlog\\cmTC_5b829.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-34a6ur\\cmTC_5b829.vcxproj" (default targets).
+          Deleting file "cmTC_4bbb9.dir\\Debug\\cmTC_4bbb9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4bbb9.dir\\Debug\\cmTC_4bbb9.tlog\\cmTC_4bbb9.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1782af\\cmTC_4bbb9.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.63
+        Time Elapsed 00:00:00.60
         
       exitCode: 0
   -
@@ -2104,8 +2104,8 @@ events:
     checks:
       - "Looking for dxgi1_6.h"
     directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-x0xvbb"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-x0xvbb"
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-v68f2n"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-v68f2n"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2115,40 +2115,40 @@ events:
       variable: "HAVE_DXGI1_6_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-x0xvbb'
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-v68f2n'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7a608.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_be6fc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:50 AM.
+        Build started 2/21/2026 10:35:04 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0xvbb\\cmTC_7a608.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v68f2n\\cmTC_be6fc.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_7a608.dir\\Debug\\".
+          Creating directory "cmTC_be6fc.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0xvbb\\Debug\\".
-          Creating directory "cmTC_7a608.dir\\Debug\\cmTC_7a608.tlog\\".
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v68f2n\\Debug\\".
+          Creating directory "cmTC_be6fc.dir\\Debug\\cmTC_be6fc.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_7a608.dir\\Debug\\cmTC_7a608.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_7a608.dir\\Debug\\cmTC_7a608.tlog\\unsuccessfulbuild".
+          Creating "cmTC_be6fc.dir\\Debug\\cmTC_be6fc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_be6fc.dir\\Debug\\cmTC_be6fc.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_7a608.dir\\Debug\\\\" /Fd"cmTC_7a608.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0xvbb\\CheckIncludeFile.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_be6fc.dir\\Debug\\\\" /Fd"cmTC_be6fc.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v68f2n\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_7a608.dir\\Debug\\\\" /Fd"cmTC_7a608.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0xvbb\\CheckIncludeFile.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_be6fc.dir\\Debug\\\\" /Fd"cmTC_be6fc.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v68f2n\\CheckIncludeFile.c"
           CheckIncludeFile.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0xvbb\\Debug\\cmTC_7a608.exe" /INCREMENTAL /ILK:"cmTC_7a608.dir\\Debug\\cmTC_7a608.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-x0xvbb/Debug/cmTC_7a608.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-x0xvbb/Debug/cmTC_7a608.lib" /MACHINE:X64  /machine:x64 cmTC_7a608.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_7a608.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0xvbb\\Debug\\cmTC_7a608.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v68f2n\\Debug\\cmTC_be6fc.exe" /INCREMENTAL /ILK:"cmTC_be6fc.dir\\Debug\\cmTC_be6fc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-v68f2n/Debug/cmTC_be6fc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-v68f2n/Debug/cmTC_be6fc.lib" /MACHINE:X64  /machine:x64 cmTC_be6fc.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_be6fc.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v68f2n\\Debug\\cmTC_be6fc.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_7a608.dir\\Debug\\cmTC_7a608.tlog\\unsuccessfulbuild".
-          Touching "cmTC_7a608.dir\\Debug\\cmTC_7a608.tlog\\cmTC_7a608.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0xvbb\\cmTC_7a608.vcxproj" (default targets).
+          Deleting file "cmTC_be6fc.dir\\Debug\\cmTC_be6fc.tlog\\unsuccessfulbuild".
+          Touching "cmTC_be6fc.dir\\Debug\\cmTC_be6fc.tlog\\cmTC_be6fc.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v68f2n\\cmTC_be6fc.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.69
+        Time Elapsed 00:00:00.58
         
       exitCode: 0
   -
@@ -2160,8 +2160,8 @@ events:
     checks:
       - "Performing Test HAVE_MFAPI_H"
     directories:
-      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-1qehns"
-      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-1qehns"
+      source: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-c2oynw"
+      binary: "C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-c2oynw"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2171,40 +2171,40 @@ events:
       variable: "HAVE_MFAPI_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-1qehns'
+        Change Dir: 'C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-c2oynw'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d1598.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_06b98.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 2/21/2026 2:49:51 AM.
+        Build started 2/21/2026 10:35:04 PM.
         
-        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qehns\\cmTC_d1598.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c2oynw\\cmTC_06b98.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_d1598.dir\\Debug\\".
+          Creating directory "cmTC_06b98.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qehns\\Debug\\".
-          Creating directory "cmTC_d1598.dir\\Debug\\cmTC_d1598.tlog\\".
+          Creating directory "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c2oynw\\Debug\\".
+          Creating directory "cmTC_06b98.dir\\Debug\\cmTC_06b98.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_d1598.dir\\Debug\\cmTC_d1598.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_d1598.dir\\Debug\\cmTC_d1598.tlog\\unsuccessfulbuild".
+          Creating "cmTC_06b98.dir\\Debug\\cmTC_06b98.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_06b98.dir\\Debug\\cmTC_06b98.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d1598.dir\\Debug\\\\" /Fd"cmTC_d1598.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qehns\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_06b98.dir\\Debug\\\\" /Fd"cmTC_06b98.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c2oynw\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d1598.dir\\Debug\\\\" /Fd"cmTC_d1598.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qehns\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_06b98.dir\\Debug\\\\" /Fd"cmTC_06b98.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c2oynw\\src.c"
           src.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qehns\\Debug\\cmTC_d1598.exe" /INCREMENTAL /ILK:"cmTC_d1598.dir\\Debug\\cmTC_d1598.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-1qehns/Debug/cmTC_d1598.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-1qehns/Debug/cmTC_d1598.lib" /MACHINE:X64  /machine:x64 cmTC_d1598.dir\\Debug\\src.obj
-          cmTC_d1598.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qehns\\Debug\\cmTC_d1598.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c2oynw\\Debug\\cmTC_06b98.exe" /INCREMENTAL /ILK:"cmTC_06b98.dir\\Debug\\cmTC_06b98.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-c2oynw/Debug/cmTC_06b98.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/CMakeScratch/TryCompile-c2oynw/Debug/cmTC_06b98.lib" /MACHINE:X64  /machine:x64 cmTC_06b98.dir\\Debug\\src.obj
+          cmTC_06b98.vcxproj -> C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c2oynw\\Debug\\cmTC_06b98.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_d1598.dir\\Debug\\cmTC_d1598.tlog\\unsuccessfulbuild".
-          Touching "cmTC_d1598.dir\\Debug\\cmTC_d1598.tlog\\cmTC_d1598.lastbuildstate".
-        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qehns\\cmTC_d1598.vcxproj" (default targets).
+          Deleting file "cmTC_06b98.dir\\Debug\\cmTC_06b98.tlog\\unsuccessfulbuild".
+          Touching "cmTC_06b98.dir\\Debug\\cmTC_06b98.tlog\\cmTC_06b98.lastbuildstate".
+        Done Building Project "C:\\Users\\Owen\\Documents\\GitHub\\GameMaker-Cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c2oynw\\cmTC_06b98.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.70
+        Time Elapsed 00:00:00.62
         
       exitCode: 0
   -

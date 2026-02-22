@@ -37,6 +37,12 @@
     <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\native\src\AssetLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\native\src\VM_Value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\native\src\VM_Executor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\native\CMakeLists.txt" />

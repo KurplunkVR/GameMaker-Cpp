@@ -1,3 +1,4 @@
+C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/vm_test.dir
 C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/CMakeFiles/ZERO_CHECK.dir
 C:/Users/Owen/Documents/GitHub/GameMaker-Cpp/build/vendored/SDL/CMakeFiles/SDL3-shared.dir

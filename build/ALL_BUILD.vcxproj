@@ -182,6 +182,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{EF90438D-665D-32E7-9C7B-F9373F5DDA18}</Project>
       <Name>runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\Owen\Documents\GitHub\GameMaker-Cpp\build\vm_test.vcxproj">
+      <Project>{6DBC47D7-49F4-3283-BBAC-1B57A888D7A2}</Project>
+      <Name>vm_test</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

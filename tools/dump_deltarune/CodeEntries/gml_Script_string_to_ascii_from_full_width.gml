@@ -1,0 +1,1 @@
+// This code entry is a reference to an anonymous function within "gml_GlobalScript_string_to_ascii_from_full_width", decompile that instead.

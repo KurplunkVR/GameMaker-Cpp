@@ -1,0 +1,1 @@
+// This code entry is a reference to an anonymous function within "gml_GlobalScript_string_to_hiragana_ch1", decompile that instead.
